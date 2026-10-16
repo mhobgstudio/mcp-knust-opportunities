@@ -834,9 +834,15 @@ with open(os.path.join(DIR, "manifest.webmanifest"), "w", encoding="utf-8") as f
                "display":"standalone","background_color":"#0b1020","theme_color":"#0b1020",
                "icons":[{"src":"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%236ea8fe'/%3E%3Ctext x='16' y='22' font-size='16' font-family='sans-serif' font-weight='700' text-anchor='middle' fill='%230b1020'%3EM%3C/text%3E%3C/svg%3E","sizes":"any","type":"image/svg+xml"}]}, f)
 with open(os.path.join(DIR, "sw.js"), "w", encoding="utf-8") as f:
-    f.write("const C='mcp-v1';\nself.addEventListener('install',e=>{self.skipWaiting();});\n"
-            "self.addEventListener('activate',e=>{e.waitUntil(self.clients.claim());});\n"
-            "self.addEventListener('fetch',e=>{e.respondWith(caches.open(C).then(c=>c.match(e.request).then(r=>r||fetch(e.request).then(res=>{try{c.put(e.request,res.clone());}catch(_){}return res;}).catch(()=>c.match('index.html')))));});\n")
+    f.write("""const C='mcp-v1';
+self.addEventListener('install',e=>self.skipWaiting());
+self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));
+self.addEventListener('fetch',e=>{
+  const req=e.request;
+  if(req.method!=='GET' || new URL(req.url).origin!==location.origin) return;
+  e.respondWith(caches.open(C).then(c=>c.match(req).then(r=>r||fetch(req).then(res=>{c.put(req,res.clone());return res;}).catch(()=>c.match('index.html')))));
+});
+""")
 
 # CI workflow
 gh = os.path.join(DIR, ".github", "workflows")
