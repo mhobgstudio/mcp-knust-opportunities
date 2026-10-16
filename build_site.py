@@ -557,7 +557,7 @@ function matches(r){
   if (state.member && !r.people.includes(state.member) && !r.openAll) return false;
   if (state.city && r.city !== state.city) return false;
   if (state.q){
-    const hay = (r.name+" "+r.desc+" "+r.category+" "+r.members.join(" ")+" "+r.deadlineText+" "+r.city).toLowerCase();
+    const hay = (r.name+" "+r.desc+" "+r.category+" "+r.people.join(" ")+" "+r.city+" "+(r.deadline?fmtDate(r.deadline):"rolling watch")).toLowerCase();
     if (!hay.includes(state.q.toLowerCase())) return false;
   }
   if (state.win === "dated" && r.days === null) return false;
@@ -782,7 +782,14 @@ function renderMemberPanel(){
     return (a.deadline||"9999").localeCompare(b.deadline||"9999");
   });
   const g = $("#mpGrid"); g.innerHTML = "";
-  ordered.forEach((r,i)=>{ const c=card(r); c.style.transitionDelay=Math.min(i*18,300)+"ms"; g.appendChild(c); });
+  ordered.forEach((r,i)=>{
+    const c=card(r);
+    if(r.openAll && !r.people.includes(name)){
+      const b=document.createElement("span"); b.className="badge"; b.textContent="open to all";
+      c.querySelector("div").appendChild(b);
+    }
+    c.style.transitionDelay=Math.min(i*18,300)+"ms"; g.appendChild(c);
+  });
   requestAnimationFrame(()=>g.querySelectorAll(".card").forEach(c=>c.classList.add("in")));
 }
 function setMember(name){
@@ -834,13 +841,20 @@ with open(os.path.join(DIR, "manifest.webmanifest"), "w", encoding="utf-8") as f
                "display":"standalone","background_color":"#0b1020","theme_color":"#0b1020",
                "icons":[{"src":"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%236ea8fe'/%3E%3Ctext x='16' y='22' font-size='16' font-family='sans-serif' font-weight='700' text-anchor='middle' fill='%230b1020'%3EM%3C/text%3E%3C/svg%3E","sizes":"any","type":"image/svg+xml"}]}, f)
 with open(os.path.join(DIR, "sw.js"), "w", encoding="utf-8") as f:
-    f.write("""const C='mcp-v1';
+    f.write("""const C='mcp-v2';
 self.addEventListener('install',e=>self.skipWaiting());
-self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));
+self.addEventListener('activate',e=>{
+  e.waitUntil(caches.keys()
+    .then(ks=>Promise.all(ks.filter(k=>k!==C).map(k=>caches.delete(k))))
+    .then(()=>self.clients.claim()));
+});
 self.addEventListener('fetch',e=>{
   const req=e.request;
   if(req.method!=='GET' || new URL(req.url).origin!==location.origin) return;
-  e.respondWith(caches.open(C).then(c=>c.match(req).then(r=>r||fetch(req).then(res=>{c.put(req,res.clone());return res;}).catch(()=>c.match('index.html')))));
+  e.respondWith(
+    fetch(req).then(res=>{ const cl=res.clone(); caches.open(C).then(c=>c.put(req,cl)); return res; })
+      .catch(()=>caches.match(req).then(r=>r||caches.match('index.html')))
+  );
 });
 """)
 

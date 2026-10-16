@@ -328,7 +328,7 @@ function matches(r){
   if (state.member && !r.people.includes(state.member) && !r.openAll) return false;
   if (state.city && r.city !== state.city) return false;
   if (state.q){
-    const hay = (r.name+" "+r.desc+" "+r.category+" "+r.members.join(" ")+" "+r.deadlineText+" "+r.city).toLowerCase();
+    const hay = (r.name+" "+r.desc+" "+r.category+" "+r.people.join(" ")+" "+r.city+" "+(r.deadline?fmtDate(r.deadline):"rolling watch")).toLowerCase();
     if (!hay.includes(state.q.toLowerCase())) return false;
   }
   if (state.win === "dated" && r.days === null) return false;
@@ -553,7 +553,14 @@ function renderMemberPanel(){
     return (a.deadline||"9999").localeCompare(b.deadline||"9999");
   });
   const g = $("#mpGrid"); g.innerHTML = "";
-  ordered.forEach((r,i)=>{ const c=card(r); c.style.transitionDelay=Math.min(i*18,300)+"ms"; g.appendChild(c); });
+  ordered.forEach((r,i)=>{
+    const c=card(r);
+    if(r.openAll && !r.people.includes(name)){
+      const b=document.createElement("span"); b.className="badge"; b.textContent="open to all";
+      c.querySelector("div").appendChild(b);
+    }
+    c.style.transitionDelay=Math.min(i*18,300)+"ms"; g.appendChild(c);
+  });
   requestAnimationFrame(()=>g.querySelectorAll(".card").forEach(c=>c.classList.add("in")));
 }
 function setMember(name){
