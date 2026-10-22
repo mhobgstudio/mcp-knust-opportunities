@@ -9,3 +9,4 @@
 ocr/
 workshopConference/
 .playwright-mcp/
+__pycache__/
