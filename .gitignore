@@ -10,3 +10,4 @@ ocr/
 workshopConference/
 .playwright-mcp/
 __pycache__/
+.~lock.*#

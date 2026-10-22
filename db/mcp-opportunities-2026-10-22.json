@@ -1,0 +1,3624 @@
+{
+  "format": "mcp-opportunities",
+  "version": 1,
+  "exported_at": "2026-10-22T15:26:01.000Z",
+  "instructions": [
+    "Keep the id on every opportunity that is already in the portal; change only the fields that need updating.",
+    "Add new opportunities as new objects WITHOUT an id. An item without an id whose name matches an existing one updates that one instead of being added twice.",
+    "Dates are YYYY-MM-DD or null. deadline drives the reminder emails; put fuzzy dates like \"~Feb 2027\" in deadline_text.",
+    "category, kind and status must be one of the listed values. suggested_members is a list of names.",
+    "Do not change updated_at: it lets the portal spot items edited by someone else after this export."
+  ],
+  "categories": [
+    "QUANTUM SCIENCE & TECHNOLOGY",
+    "MATERIALS MODELLING & MOF/DFT",
+    "ENERGY, WATER & DIGITAL TWINS",
+    "SEISMOLOGY, GEOSCIENCE & OCEAN",
+    "ASTROPHYSICS",
+    "AFRICAN PHYSICS, MATH & GENERAL",
+    "GRANTS & FELLOWSHIPS",
+    "RESEARCH INTERNSHIPS & SUMMER PROGRAMS"
+  ],
+  "kinds": [
+    "conference",
+    "workshop",
+    "school",
+    "grant",
+    "fellowship"
+  ],
+  "statuses": [
+    "published",
+    "draft",
+    "archived"
+  ],
+  "opportunities": [
+    {
+      "name": "CERN Technical Studentship",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "4–12 months at CERN. Allowance of about 3,486 CHF/month plus health insurance, travel and 30 days paid leave. Requires at least 18 months of studies completed; not open to PhD holders.",
+      "location": "Switzerland",
+      "url": "https://careers.cern/students",
+      "deadline": "2026-10-16",
+      "deadline_text": "16 Oct 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "THINK SWISS Research Scholarship",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Research stay in Switzerland for students from the US, Canada, Australia, Singapore, India and select Pacific Islands. CHF 3,600 total (CHF 60/day); applicant must secure their own host professor.",
+      "location": "Switzerland",
+      "url": "https://swissnex.org",
+      "deadline": "2027-01-31",
+      "deadline_text": "31 Jan 2027 (window opens 1 Oct 2026)",
+      "suggested_members": []
+    },
+    {
+      "name": "EPFL E3 Program",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Broad engineering, science and technology research placements; applicants select up to 3 labs. CHF 1,800–2,500/month. Requires top 10% class rank.",
+      "location": "Switzerland",
+      "url": "https://eee.epfl.ch",
+      "deadline": "2026-11-01",
+      "deadline_text": "1 Nov 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "CERN Short-Term Internship",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Short-term technical or administrative placement at CERN for students in technical or administrative programmes. Minimum age 18.",
+      "location": "Switzerland",
+      "url": "https://careers.cern",
+      "deadline": "2026-11-01",
+      "deadline_text": "1 Nov 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "DAAD RISE Germany",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Summer research internships for US, Canadian, UK and Irish undergraduates, matched with German doctoral students. Monthly stipend plus travel and health insurance.",
+      "location": "Germany",
+      "url": "https://www.rise-germany.de",
+      "deadline": "2026-11-30",
+      "deadline_text": "15 Oct – 30 Nov 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "CERN Summer Studentship",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Summer programme at CERN for undergraduate students in physics, engineering and computing. Applications open in November.",
+      "location": "Switzerland",
+      "url": "https://careers.cern/summer",
+      "deadline": null,
+      "deadline_text": "Opens Nov 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "Purdue SURF",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "10-week immersive summer research programme. The international deadline is earlier than the domestic one.",
+      "location": "USA",
+      "url": "https://engineering.purdue.edu",
+      "deadline": "2026-12-15",
+      "deadline_text": "Intl: 15 Dec 2026; priority: 15 Jan 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "MIT MSRP",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "10-week summer research programme. Open to US citizens and permanent residents only.",
+      "location": "USA",
+      "url": "https://oge.mit.edu",
+      "deadline": "2027-01-15",
+      "deadline_text": "15 Jan 2027 (window Oct – Jan)",
+      "suggested_members": []
+    },
+    {
+      "name": "Aalto ASCI Summer",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "12-week summer research (June–August 2027) with 50+ positions. Salary 2,000+ EUR/month plus travel bonus; projects posted December 2026.",
+      "location": "Finland",
+      "url": "https://www.aalto.fi",
+      "deadline": "2027-01-31",
+      "deadline_text": "1–31 Jan 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "RWTH Aachen UROP",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Mechanical and electrical engineering research with deep integration into faculty labs.",
+      "location": "Germany",
+      "url": "https://www.rwth-aachen.de",
+      "deadline": null,
+      "deadline_text": "Feb 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "MBARI Internships",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Summer research internships at the Monterey Bay Aquarium Research Institute in marine science and engineering.",
+      "location": "USA",
+      "url": "https://www.mbari.org",
+      "deadline": null,
+      "deadline_text": "Feb 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "KUSRP (Koç University)",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Summer research programme open to international high school, undergraduate and graduate students. Free accommodation.",
+      "location": "Türkiye",
+      "url": "https://research.ku.edu.tr",
+      "deadline": null,
+      "deadline_text": "Opens March 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "Özyeğin URSI",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Undergraduate summer research programme; application period runs December–February. Housing and lunch provided.",
+      "location": "Türkiye",
+      "url": "https://www.ozyegin.edu.tr",
+      "deadline": null,
+      "deadline_text": "Feb 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "KAUST VSRP",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "3–6 month visiting student research programme in STEM fields, with rolling admissions.",
+      "location": "Saudi Arabia",
+      "url": "https://admissions.kaust.edu.sa",
+      "deadline": null,
+      "deadline_text": "Rolling admissions",
+      "suggested_members": []
+    },
+    {
+      "name": "ISTA Scientific Internships",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "2–6 month fully funded internships in biology, neuroscience, mathematics and physics. Year-round applications.",
+      "location": "Austria",
+      "url": "https://phd.ista.ac.at",
+      "deadline": null,
+      "deadline_text": "Year-round",
+      "suggested_members": []
+    },
+    {
+      "name": "KFUPM Inbound Summer",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Research opportunities for international students, including a Spring 2027 exchange and an 8-week paid Aramco internship.",
+      "location": "Saudi Arabia",
+      "url": "https://www.kfupm.edu.sa",
+      "deadline": null,
+      "deadline_text": "Summer 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "imec Internships",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Nanoelectronics and digital technology internships in Leuven. 2027 call not yet posted as of September 2026.",
+      "location": "Belgium",
+      "url": "https://www.imec-int.com",
+      "deadline": null,
+      "deadline_text": "Not yet posted (Sept 2026)",
+      "suggested_members": []
+    },
+    {
+      "name": "EPFL Life Sciences SRP",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "8-week summer research in biology, biophysics and bioengineering. CHF 3,600 total. Requires GPA 3.75/4.0 or top 5%.",
+      "location": "Switzerland",
+      "url": "https://www.epfl.ch",
+      "deadline": "2026-11-15",
+      "deadline_text": "15 Nov 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "EPFL Summer@EPFL",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Summer research in computer science and communications. CHF 1,800/month with dynamic faculty matching.",
+      "location": "Switzerland",
+      "url": "https://summer.epfl.ch",
+      "deadline": "2026-11-29",
+      "deadline_text": "29 Nov 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "EPFL ERIP",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Research internship open to partner universities only (CMU, Georgia Tech, JHU, McGill, UofT, NTU). Variable stipend.",
+      "location": "Switzerland",
+      "url": "https://www.epfl.ch",
+      "deadline": "2026-11-30",
+      "deadline_text": "30 Nov 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "Max Planck MaxSIP",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Summer internship in computer science, software engineering and data privacy. Fully funded: stipend, housing and travel. Open from Bachelor's to PhD.",
+      "location": "Germany",
+      "url": "https://www.mpi-sws.org",
+      "deadline": "2026-11-01",
+      "deadline_text": "1 Nov 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "DAAD WISE",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Research internships in Germany for Indian nationals. EUR 831/month; applicants must independently secure a German professor invitation.",
+      "location": "Germany",
+      "url": "https://www.daad.de",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": []
+    },
+    {
+      "name": "HZDR Summer Student Program",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Summer student programme at Helmholtz-Zentrum Dresden-Rossendorf, July-September 2027. Lectures plus research.",
+      "location": "Germany",
+      "url": "https://www.hzdr.de",
+      "deadline": "2027-01-24",
+      "deadline_text": "24 Jan 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "Amgen Scholars (Europe)",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Fully funded summer research with a European symposium at Cambridge. Check individual host institution deadlines.",
+      "location": "UK",
+      "url": "https://www.amgenscholars.com",
+      "deadline": "2027-02-01",
+      "deadline_text": "1 Feb 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "SERP (Leibniz Hannover)",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Leibniz Hannover summer programme, 13 May - 30 July 2027. 12 ECTS credits; EUR 3,150 programme fee.",
+      "location": "Germany",
+      "url": "https://www.uni-hannover.de",
+      "deadline": "2027-02-01",
+      "deadline_text": "1 Feb 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "LISA (Hannover Medical School)",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Immunology research at Hannover Medical School, August-September 2027. EUR 300 total cost including accommodation; travel allowance provided.",
+      "location": "Germany",
+      "url": "https://www.daad.de",
+      "deadline": "2027-03-30",
+      "deadline_text": "30 Mar 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "Princeton PCCM REU",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Materials science research, 1 June - 30 July 2027.",
+      "location": "USA",
+      "url": "https://pccm.princeton.edu",
+      "deadline": "2027-01-15",
+      "deadline_text": "15 Jan 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "MagLab REU (NSF)",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "REU at the National High Magnetic Field Laboratory, 24 May - 30 July 2027.",
+      "location": "USA",
+      "url": "https://nationalmaglab.org",
+      "deadline": "2027-01-08",
+      "deadline_text": "8 Jan 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "Caltech SURF",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "10-week summer research with stipend and housing included.",
+      "location": "USA",
+      "url": "https://sfp.caltech.edu",
+      "deadline": "2027-03-01",
+      "deadline_text": "1 Mar 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "Amgen Scholars (US)",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Fully funded summer research in biology and health. Check individual host institution deadlines.",
+      "location": "USA",
+      "url": "https://www.amgenscholars.com",
+      "deadline": "2027-02-01",
+      "deadline_text": "1 Feb 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "NSF REU (Various Sites)",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "100+ REU sites across US universities; deadlines vary by site.",
+      "location": "USA",
+      "url": "https://www.nsf.gov",
+      "deadline": null,
+      "deadline_text": "Jan-Feb 2027 (varies)",
+      "suggested_members": []
+    },
+    {
+      "name": "BYU REU",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "REU in physics, chemistry and engineering, 31 May - 6 August 2027.",
+      "location": "USA",
+      "url": "https://reu.byu.edu",
+      "deadline": "2027-02-06",
+      "deadline_text": "6 Feb 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "Mitacs Globalink",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "12-week internship (May-October 2027). Up to 300 Indian students funded; open to all disciplines.",
+      "location": "Canada",
+      "url": "https://www.mitacs.ca",
+      "deadline": "2026-09-16",
+      "deadline_text": "16 Sep 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "Fields Undergraduate Summer Research Program",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Mathematical sciences summer research at the University of Toronto, 1 June - 31 July 2027.",
+      "location": "Canada",
+      "url": "https://gfs.fields.utoronto.ca",
+      "deadline": "2026-10-18",
+      "deadline_text": "18 Oct 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "OIST Research Internship",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "2-6 month research internship (1 April - 30 September 2027). JPY 2,400/day plus free accommodation and travel support.",
+      "location": "Japan",
+      "url": "https://www.oist.jp",
+      "deadline": "2026-10-15",
+      "deadline_text": "15 Oct 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "Keio Bio2Q Internship",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "8-12 week internship (10 May - 10 August 2027) in human biology-microbiome-quantum research. Accommodation and travel covered.",
+      "location": "Japan",
+      "url": "https://bio2q.keio.ac.jp",
+      "deadline": "2026-12-01",
+      "deadline_text": "1 Dec 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "NAIST NAPI",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Internship at Nara Institute of Science and Technology with travel and allowance support. Expanding to DLSU (Philippines) for 2027.",
+      "location": "Japan",
+      "url": "https://napi-naist.github.io",
+      "deadline": "2026-10-16",
+      "deadline_text": "16 Oct 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "NUS IRIS",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "2-3 month fully funded research internship within January-May 2027 at the National University of Singapore.",
+      "location": "Singapore",
+      "url": "https://www.nus.edu.sg",
+      "deadline": "2026-08-28",
+      "deadline_text": "28 Aug 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "KAUST Global Fellowship",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Fellowship for early-career researchers, including final-year PhDs.",
+      "location": "Saudi Arabia",
+      "url": "https://kgfp.kaust.edu.sa",
+      "deadline": null,
+      "deadline_text": "Opens 1 Sep 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "SN Bose / Khorana Programs",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "India-US STEM/biotech exchange. Khorana requires 1+ year remaining and CGPA 8.0+.",
+      "location": "India",
+      "url": "https://www.iuusstf.org",
+      "deadline": null,
+      "deadline_text": "Late Oct 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "NCRA TIFR VSRP",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "May-July visiting student research for students entering the final year of a Bachelor's/Master's in physics, mathematics, electronics or engineering.",
+      "location": "India",
+      "url": "https://ncra.tifr.res.in",
+      "deadline": null,
+      "deadline_text": "~Mid-Feb 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "IASc-INSA-NASI SRFP",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Science Academies' summer research fellowship; results around March-April 2027.",
+      "location": "India",
+      "url": "https://www.ias.ac.in",
+      "deadline": "2026-11-30",
+      "deadline_text": "30 Nov 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "IIT Gandhinagar VSREP",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Semester-long research (Semester II, 2026-27) for final-year students from IITs, IISc, IISERs and NITs.",
+      "location": "India",
+      "url": "https://www.iitgn.ac.in",
+      "deadline": "2026-10-27",
+      "deadline_text": "27 Oct 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "IIT Hyderabad SURE",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "1-2 month summer research (May-July). INR 7,500/month for one month or INR 15,000 total for two; CGPA 8.0+ for non-IITH applicants.",
+      "location": "India",
+      "url": "https://www.iith.ac.in",
+      "deadline": null,
+      "deadline_text": "~10 Mar 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "IISc UG Research",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Bachelor of Science (Research) programme; entrance exam in June 2027.",
+      "location": "India",
+      "url": "https://www.iisc.ac.in",
+      "deadline": "2027-04-14",
+      "deadline_text": "14 Apr 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "Amgen Scholars (Australia)",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Hosted by the University of Melbourne, 3 January - 19 February 2027.",
+      "location": "Australia",
+      "url": "https://www.amgenscholars.com",
+      "deadline": "2026-08-31",
+      "deadline_text": "31 Aug 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "UQ Summer Research",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Summer 2027 research programme at the University of Queensland with projects across schools.",
+      "location": "Australia",
+      "url": "https://www.uq.edu.au",
+      "deadline": "2026-10-11",
+      "deadline_text": "11 Oct 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "QUBIC Summer Internship",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "4-week quantum biotechnology internship (13 January - 8 February 2027); 10 internships across 4 nodes.",
+      "location": "Australia",
+      "url": "https://qubic.au",
+      "deadline": "2026-10-16",
+      "deadline_text": "16 Oct 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "SAIIA Africa Youth Research Programme",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Fully funded mentorship and research support, with a training workshop 22-26 February 2027 in Johannesburg.",
+      "location": "South Africa",
+      "url": "https://saiia.org.za",
+      "deadline": "2026-09-30",
+      "deadline_text": "30 Sep 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "SANBI Research Internships",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "15 biological invasions research development internships for 2027; R9,876/month.",
+      "location": "South Africa",
+      "url": "https://www.sanbi.org",
+      "deadline": "2026-10-30",
+      "deadline_text": "30 Oct 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "CNPEM Summer Scholarships",
+      "category": "RESEARCH INTERNSHIPS & SUMMER PROGRAMS",
+      "kind": "school",
+      "status": "published",
+      "description": "Summer scholarships 6 January - 26 February 2027 in Campinas, Sao Paulo. Travel and accommodation covered; for Latin America and Caribbean students.",
+      "location": "Brazil",
+      "url": "https://cnpem.br",
+      "deadline": "2026-09-08",
+      "deadline_text": "8 Sep 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "Chevening Scholarship",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "grant",
+      "status": "published",
+      "description": "Full tuition, living stipend and airfare. Master's only; requires 2+ years work experience.",
+      "location": "UK",
+      "url": "https://www.chevening.org",
+      "deadline": "2026-10-06",
+      "deadline_text": "6 Oct 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "Gates Cambridge Scholarship",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "grant",
+      "status": "published",
+      "description": "Full-cost scholarship at Cambridge for Master's/PhD; course-specific deadlines.",
+      "location": "UK",
+      "url": "https://www.gatescambridge.org",
+      "deadline": null,
+      "deadline_text": "US: 14 Oct 2026; intl: 8 Dec 2026 or 6 Jan 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "Rhodes Scholarship",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "grant",
+      "status": "published",
+      "description": "Full-cost scholarship at Oxford for Master's/DPhil. Country-specific deadlines (India 23 July 2026, Germany 10 Sep 2026, Southern Africa 3 Aug 2026).",
+      "location": "UK",
+      "url": "https://www.rhodeshouse.ox.ac.uk",
+      "deadline": null,
+      "deadline_text": "Jul-Oct 2026 (varies by country)",
+      "suggested_members": []
+    },
+    {
+      "name": "Commonwealth Scholarship",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "grant",
+      "status": "published",
+      "description": "Master's/PhD scholarship for Commonwealth countries.",
+      "location": "UK",
+      "url": "https://cscuk.fcdo.gov.uk",
+      "deadline": null,
+      "deadline_text": "Nov 2026 - Feb 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "Fulbright Program",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "grant",
+      "status": "published",
+      "description": "Master's/PhD funding with country-specific deadlines.",
+      "location": "USA",
+      "url": "https://foreign.fulbrightonline.org",
+      "deadline": null,
+      "deadline_text": "Sep-Nov 2026 (varies by country)",
+      "suggested_members": []
+    },
+    {
+      "name": "Erasmus Mundus",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "grant",
+      "status": "published",
+      "description": "EU-funded scholarships for two-year international master's programmes.",
+      "location": "Europe",
+      "url": "https://erasmus-plus.ec.europa.eu",
+      "deadline": null,
+      "deadline_text": "Nov 2026 - Jan 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "Australia Awards",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "grant",
+      "status": "published",
+      "description": "Master's/PhD scholarships for developing countries.",
+      "location": "Australia",
+      "url": "https://www.australiaawards.gov.au",
+      "deadline": null,
+      "deadline_text": "Feb-Apr 2027 (varies)",
+      "suggested_members": []
+    },
+    {
+      "name": "QIP 2027 (Singapore, 20–26 Feb 2027)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "conference",
+      "status": "published",
+      "description": "Flagship quantum-information theory conference; poster track open",
+      "location": "Singapore",
+      "url": "https://qipconference.org/2027/call/",
+      "deadline": "2026-12-04",
+      "deadline_text": "4 Dec 2026",
+      "suggested_members": [
+        "Awuley",
+        "Joseph",
+        "Kidibe",
+        "Eugene"
+      ]
+    },
+    {
+      "name": "APS Global Physics Summit 2027 (Atlanta, 11–16 Apr 2027)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "conference",
+      "status": "published",
+      "description": "Quantum Realm + Materials Frontier; virtual option; APS membership required",
+      "location": "Atlanta",
+      "url": "https://summit.aps.org/attend/abstracts",
+      "deadline": "2026-10-22",
+      "deadline_text": "22 Oct 2026",
+      "suggested_members": [
+        "Eugene"
+      ]
+    },
+    {
+      "name": "DPG Spring Meetings 2027 (SAMOP Hannover / SKM Regensburg)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "conference",
+      "status": "published",
+      "description": "Quantum info/optics + condensed matter; 10,000+ physicists",
+      "location": "SAMOP Hannover / SKM Regensburg",
+      "url": "https://www.dpg-physik.de/aktivitaeten-und-programme/tagungen/fruehjahrstagungen/2027",
+      "deadline": "2026-12-01",
+      "deadline_text": "1 Dec 2026",
+      "suggested_members": [
+        "Eugene"
+      ]
+    },
+    {
+      "name": "Quantum Sensing GRC & GRS 2027 (Les Diablerets, 11–16 Jul)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "conference",
+      "status": "published",
+      "description": "NV-centre sensing; GRS early-career seminar",
+      "location": "Les Diablerets",
+      "url": "https://quantum.info/conf/2027.html",
+      "deadline": null,
+      "deadline_text": "Watch (GRC cycle)",
+      "suggested_members": [
+        "Eugene"
+      ]
+    },
+    {
+      "name": "INFN Quantum Computing Workshop (17–19 Feb 2027)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Algorithms & simulation for quantum computers (Italy)",
+      "location": "",
+      "url": "https://agenda.infn.it/event/53380/abstracts/",
+      "deadline": "2027-01-05",
+      "deadline_text": "5 Jan 2027",
+      "suggested_members": [
+        "Seth",
+        "Joseph",
+        "Kidibe"
+      ]
+    },
+    {
+      "name": "Benasque: Entanglement & Topology in Interacting Quantum Matter (14–27 Feb 2027)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Many-body quantum-matter school-conference (Spain)",
+      "location": "",
+      "url": "https://www.benasque.org/2027etqm/",
+      "deadline": "2027-01-24",
+      "deadline_text": "24 Jan 2027",
+      "suggested_members": [
+        "Joseph",
+        "Kidibe"
+      ]
+    },
+    {
+      "name": "Bangkok QIMB 2027 (15–19 Feb 2027)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "conference",
+      "status": "published",
+      "description": "Quantum information & many-body systems; pedagogical",
+      "location": "",
+      "url": "https://www.thaihep.phys.sc.chula.ac.th/BKK2027QIMB/",
+      "deadline": "2027-02-01",
+      "deadline_text": "Feb 2027",
+      "suggested_members": [
+        "Joseph",
+        "Kidibe"
+      ]
+    },
+    {
+      "name": "Texas Quantum Winter School (3–9 Jan 2027)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Open quantum systems, tensor networks, AI-in-science",
+      "location": "",
+      "url": "https://www.texquantum.com/index.html",
+      "deadline": "2027-01-01",
+      "deadline_text": "Early Jan 2027",
+      "suggested_members": [
+        "Joseph",
+        "Kidibe"
+      ]
+    },
+    {
+      "name": "BIRS: Mathematical Frontiers in Quantum & Computational Chemistry (4–9 Jul 2027)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "conference",
+      "status": "published",
+      "description": "Math + quantum algorithms + chemistry (Banff)",
+      "location": "",
+      "url": "https://www.birs.ca/events/2027/5-day-workshops/27w5742",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": [
+        "Awuley",
+        "Joseph",
+        "Kidibe"
+      ]
+    },
+    {
+      "name": "Obergurgl ML & Quantum Physics Workshop (21–27 Mar 2027)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "workshop",
+      "status": "published",
+      "description": "ML for quantum optimal control & device control (TU Wien)",
+      "location": "",
+      "url": "https://mlqp-obergurgl.conf.tuwien.ac.at/",
+      "deadline": null,
+      "deadline_text": "Early 2027",
+      "suggested_members": [
+        "Eugene"
+      ]
+    },
+    {
+      "name": "GRC Seminar: Quantum Control of Light & Matter GRS (31 Jul–1 Aug 2027)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "conference",
+      "status": "published",
+      "description": "Optimal quantum control of atoms, molecules and bulk",
+      "location": "",
+      "url": "https://www.grc.org/quantum-control-of-light-and-matter-grs-conference/2027/",
+      "deadline": "2027-04-25",
+      "deadline_text": "25 Apr 2027 (speaker)",
+      "suggested_members": [
+        "Eugene"
+      ]
+    },
+    {
+      "name": "Aspen Winter Conf.: Atom & Molecule Tweezer Arrays (14–19 Mar 2027)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "conference",
+      "status": "published",
+      "description": "Rydberg/tweezer quantum science & technology",
+      "location": "",
+      "url": "https://www.aspentweezerarrays2027.org/",
+      "deadline": null,
+      "deadline_text": "Early 2027",
+      "suggested_members": [
+        "Eugene"
+      ]
+    },
+    {
+      "name": "IEEE Quantum Week / QCE 2027 (Sep 2027, TBA)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "conference",
+      "status": "published",
+      "description": "Largest quantum computing & engineering conference",
+      "location": "Sep 2027",
+      "url": "https://qce.quantum.ieee.org/2026/",
+      "deadline": "2027-04-01",
+      "deadline_text": "Apr 2027",
+      "suggested_members": [
+        "Awuley",
+        "Joseph",
+        "Eugene"
+      ]
+    },
+    {
+      "name": "USEQIP 2027 (Waterloo, 31 May–11 Jun 2027)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Free undergrad experimental QIP school + bursaries",
+      "location": "Waterloo",
+      "url": "https://uwaterloo.ca/institute-for-quantum-computing/events/undergraduate-school-experimental-quantum-information-0",
+      "deadline": "2027-01-03",
+      "deadline_text": "3 Jan 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "PSI master's (Perimeter, Waterloo)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "conference",
+      "status": "published",
+      "description": "Fully funded MSc in theoretical physics",
+      "location": "Perimeter",
+      "url": "https://perimeterinstitute.ca/training/masters-program/psi-how-apply",
+      "deadline": "2027-01-24",
+      "deadline_text": "24 Jan 2027",
+      "suggested_members": [
+        "Seth",
+        "Awuley",
+        "Abdul Rahman"
+      ]
+    },
+    {
+      "name": "MathQuantum fellowships (U Maryland)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "HS/UG/grad/postdoc quantum-math fellowships",
+      "location": "U Maryland",
+      "url": "https://mathquantum.umd.edu/apply/",
+      "deadline": "2027-02-12",
+      "deadline_text": "12 Feb 2027",
+      "suggested_members": [
+        "Awuley"
+      ]
+    },
+    {
+      "name": "AfriQA 2026 (Kigali, 30 Nov–4 Dec 2026)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "workshop",
+      "status": "published",
+      "description": "African Quantum Alliance conf. + summer school",
+      "location": "Kigali",
+      "url": "https://afriqa.aimsric.org/",
+      "deadline": "2026-11-10",
+      "deadline_text": "Travel 15 Oct; reg 10 Nov 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "QTML 2026 (Stellenbosch, 6–11 Dec 2026)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "conference",
+      "status": "published",
+      "description": "Quantum techniques in machine learning",
+      "location": "Stellenbosch",
+      "url": "https://africaquantumconsortium.substack.com/p/africa-quantum-consortium-memo-869",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": [
+        "Awuley",
+        "Joseph"
+      ]
+    },
+    {
+      "name": "Q-STAV 2027 (Dortmund, 22 Feb 2027)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "conference",
+      "status": "published",
+      "description": "Quantum software testing & verification",
+      "location": "Dortmund",
+      "url": "https://www.spp2514.kit.edu/Q-STAV_2027.php",
+      "deadline": "2026-12-01",
+      "deadline_text": "1 Dec 2026",
+      "suggested_members": [
+        "Kidibe"
+      ]
+    },
+    {
+      "name": "Superconducting Qubit Readout Workshop (RIKEN, 15–17 Mar 2027)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Qubit readout & control engineering",
+      "location": "RIKEN",
+      "url": "https://rqc.riken.jp/sqrw2027/",
+      "deadline": "2026-11-15",
+      "deadline_text": "15 Nov 2026 (posters)",
+      "suggested_members": [
+        "Eugene"
+      ]
+    },
+    {
+      "name": "INVIRTA: GNNs for Molecules & Materials (12 Feb 2027)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "conference",
+      "status": "published",
+      "description": "CGCNN, MEGNet and equivariant GNNs (virtual)",
+      "location": "",
+      "url": "https://www.invirta.com/workshops/am/workshop-5-5",
+      "deadline": null,
+      "deadline_text": "Reg closed; watch 2028",
+      "suggested_members": [
+        "Ashraf"
+      ]
+    },
+    {
+      "name": "INVIRTA: Gaussian Processes & Bayesian Optimisation (5 Feb 2027)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "conference",
+      "status": "published",
+      "description": "GP surrogates, BO, active learning (virtual)",
+      "location": "",
+      "url": "https://www.invirta.com/workshops/am/workshop-5-4",
+      "deadline": null,
+      "deadline_text": "Reg closed; watch 2028",
+      "suggested_members": [
+        "Joseph"
+      ]
+    },
+    {
+      "name": "INVIRTA: Self-Driving Laboratories (9 Mar 2027)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "conference",
+      "status": "published",
+      "description": "Closed-loop autonomous experimentation (virtual)",
+      "location": "",
+      "url": "https://www.invirta.com/workshops/am/workshop-5-13",
+      "deadline": null,
+      "deadline_text": "Reg closed; watch 2028",
+      "suggested_members": [
+        "Joseph"
+      ]
+    },
+    {
+      "name": "BAYST 2027 (KIT Karlsruhe, 1–3 Mar 2027)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "conference",
+      "status": "published",
+      "description": "Bayesian structural learning; free; poster call",
+      "location": "KIT Karlsruhe",
+      "url": "https://www.linkedin.com/posts/kleinlab-mbd_bayst-2027-activity-7474814477058891778-7WfC",
+      "deadline": null,
+      "deadline_text": "Poster call open",
+      "suggested_members": [
+        "Joseph"
+      ]
+    },
+    {
+      "name": "Quantinuum InQuanto Summer School (Cambridge)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Quantum chemistry workflows, VQE/QPE hands-on",
+      "location": "Cambridge",
+      "url": "https://www.quantinuum.com/inquanto-summer-school",
+      "deadline": null,
+      "deadline_text": "Watch 2027",
+      "suggested_members": [
+        "Awuley",
+        "Joseph"
+      ]
+    },
+    {
+      "name": "ESQC: European Summer School in Quantum Chemistry",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Premier QC-methods school (biennial)",
+      "location": "",
+      "url": "https://www.esqc.org/",
+      "deadline": null,
+      "deadline_text": "Watch 2027",
+      "suggested_members": [
+        "Awuley",
+        "Joseph"
+      ]
+    },
+    {
+      "name": "VWSCC 2027 (25–29 Jan 2027, virtual)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Free computational-chemistry winter school",
+      "location": "",
+      "url": "https://winterschool.cc/",
+      "deadline": null,
+      "deadline_text": "Reg open",
+      "suggested_members": [
+        "Awuley",
+        "Joseph"
+      ]
+    },
+    {
+      "name": "CECAM quantum-chemistry / ALMS workshops",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Quantum algorithms & active learning for materials",
+      "location": "",
+      "url": "https://www.cecam.org/program",
+      "deadline": null,
+      "deadline_text": "Rolling 2027",
+      "suggested_members": [
+        "Awuley",
+        "Joseph"
+      ]
+    },
+    {
+      "name": "CLEO 2027 (Long Beach, 2–7 May 2027)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "conference",
+      "status": "published",
+      "description": "Lasers, photonics, electro-optics; quantum control",
+      "location": "Long Beach",
+      "url": "https://cleoconference.org/",
+      "deadline": "2026-11-23",
+      "deadline_text": "23 Nov 2026",
+      "suggested_members": [
+        "Eugene"
+      ]
+    },
+    {
+      "name": "Optica Quantum 2.0 (Copenhagen, 7–10 Jun 2027)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "conference",
+      "status": "published",
+      "description": "Quantum photonics, computing, sensing",
+      "location": "Copenhagen",
+      "url": "https://www.optica.org/events/topical_meetings/quantum/submit_a_paper/",
+      "deadline": "2027-02-09",
+      "deadline_text": "9 Feb 2027",
+      "suggested_members": [
+        "Awuley",
+        "Joseph",
+        "Kidibe",
+        "Eugene"
+      ]
+    },
+    {
+      "name": "CLEO/Europe-EQEC 2027 (Munich, 21–25 Jun 2027)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "conference",
+      "status": "published",
+      "description": "European laser/photonics/quantum",
+      "location": "Munich",
+      "url": "https://cleoeurope.org/deadlines/",
+      "deadline": "2027-01-01",
+      "deadline_text": "Jan 2027",
+      "suggested_members": [
+        "Eugene"
+      ]
+    },
+    {
+      "name": "APS DAMOP 2027 (Chicago, 31 May–4 Jun 2027)",
+      "category": "QUANTUM SCIENCE & TECHNOLOGY",
+      "kind": "conference",
+      "status": "published",
+      "description": "Atomic, molecular & optical physics (Rydberg, control)",
+      "location": "Chicago",
+      "url": "https://ucan.physics.utoronto.ca/conferences/damop2027/",
+      "deadline": null,
+      "deadline_text": "Early 2027",
+      "suggested_members": [
+        "Eugene"
+      ]
+    },
+    {
+      "name": "EuroMOF 2027 (Lake Como, 4–7 Jul 2027)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "conference",
+      "status": "published",
+      "description": "Flagship European MOF/porous-materials conference",
+      "location": "Lake Como",
+      "url": "https://euromof2027.com/",
+      "deadline": "2027-02-01",
+      "deadline_text": "1 Feb 2027",
+      "suggested_members": [
+        "Ellen",
+        "Abdul Rahman",
+        "Joseph",
+        "Ashraf",
+        "Justice",
+        "Mark"
+      ]
+    },
+    {
+      "name": "MOFschool (Como, 29 Jun–2 Jul 2027)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Intro MOF/COF school (pre-EuroMOF)",
+      "location": "Como",
+      "url": "https://mofs.lakecomoschool.org/",
+      "deadline": null,
+      "deadline_text": "Early 2027",
+      "suggested_members": [
+        "Ellen",
+        "Abdul Rahman"
+      ]
+    },
+    {
+      "name": "IAS Focused Program: COF Design & Applications (HKUST, 11–15 Jan 2027)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "conference",
+      "status": "published",
+      "description": "COF synthesis, characterisation, remediation",
+      "location": "HKUST",
+      "url": "https://iasprogram.hkust.edu.hk/2027cofda/home.php",
+      "deadline": "2027-01-01",
+      "deadline_text": "Jan 2027",
+      "suggested_members": [
+        "Ellen",
+        "Abdul Rahman"
+      ]
+    },
+    {
+      "name": "ASESMA-2027 (Dakar, 6–19 Jun 2027)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "workshop",
+      "status": "published",
+      "description": "African School on Electronic Structure Methods (ICTP)",
+      "location": "Dakar",
+      "url": "https://asesma.org/programs",
+      "deadline": null,
+      "deadline_text": "Rolling (apply early 2027)",
+      "suggested_members": [
+        "Benard",
+        "Ellen",
+        "Seth",
+        "Abdul Rahman",
+        "Ashraf",
+        "Justice",
+        "Mark",
+        "David"
+      ]
+    },
+    {
+      "name": "CIMPA DFT School (TUK Nairobi, 28 Jun–11 Jul 2027)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Fundamentals of DFT; free CIMPA school",
+      "location": "TUK Nairobi",
+      "url": "https://materials-modelling-group.github.io/events/workshops/2026/03/24/cimpa-school-2027.html",
+      "deadline": null,
+      "deadline_text": "Via CIMPA portal",
+      "suggested_members": [
+        "Ellen",
+        "Justice",
+        "Mark",
+        "David"
+      ]
+    },
+    {
+      "name": "ICTP 23rd Total Energy & Force Methods (Jan 2027)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "workshop",
+      "status": "published",
+      "description": "DFT methodology workshop (Trieste)",
+      "location": "Jan 2027",
+      "url": "https://www.ictp.it/home/scientific-calendar",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": [
+        "Benard",
+        "Ellen",
+        "Seth",
+        "Justice",
+        "Mark",
+        "David"
+      ]
+    },
+    {
+      "name": "ICTP Quantum Materials School (17–28 May 2027)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Quantum materials theory + methods",
+      "location": "",
+      "url": "https://www.ictp.it/home/scientific-calendar",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": [
+        "Benard",
+        "Ellen",
+        "Seth",
+        "David"
+      ]
+    },
+    {
+      "name": "CHASAM 2027 (Gothenburg, 28 Sep–2 Oct 2027)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "conference",
+      "status": "published",
+      "description": "Atomic-scale modelling; MLIPs, MD, MC (2 ECTS)",
+      "location": "Gothenburg",
+      "url": "https://chasam.materialsmodeling.org/",
+      "deadline": null,
+      "deadline_text": "Mid 2027",
+      "suggested_members": [
+        "Benard",
+        "Ellen",
+        "Seth",
+        "Abdul Rahman",
+        "Ashraf",
+        "Mark",
+        "David"
+      ]
+    },
+    {
+      "name": "CS2PA 2027 (Poitiers)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "conference",
+      "status": "published",
+      "description": "Crystal-structure prediction + MLIPs hands-on",
+      "location": "Poitiers",
+      "url": "https://cs2pa2026.sciencesconf.org/",
+      "deadline": null,
+      "deadline_text": "Watch 2027",
+      "suggested_members": [
+        "Ellen",
+        "Ashraf"
+      ]
+    },
+    {
+      "name": "E-MRS Spring 2027 (Strasbourg, 17–21 May 2027)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "conference",
+      "status": "published",
+      "description": "European materials research; defects/diffusion symposia",
+      "location": "Strasbourg",
+      "url": "https://www.european-mrs.com/meetings/2027-spring-meeting-exhibit",
+      "deadline": "2027-01-01",
+      "deadline_text": "Jan 2027",
+      "suggested_members": [
+        "Mark",
+        "David"
+      ]
+    },
+    {
+      "name": "MRS Spring 2027",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "conference",
+      "status": "published",
+      "description": "Materials research; grain-boundary/defect symposia",
+      "location": "",
+      "url": "https://www.mrs.org/docs/default-source/meetings-events/spring-meetings/2027/s27-call-for-abstracts.pdf",
+      "deadline": "2026-11-01",
+      "deadline_text": "Nov 2026–Jan 2027",
+      "suggested_members": [
+        "Mark",
+        "David"
+      ]
+    },
+    {
+      "name": "EMMC 2027 (Leuven, 20–22 Apr 2027)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "conference",
+      "status": "published",
+      "description": "Physics→AI materials modelling; foundation models",
+      "location": "Leuven",
+      "url": "https://emmc.eu/events/emmc2027/",
+      "deadline": null,
+      "deadline_text": "Early 2027",
+      "suggested_members": [
+        "Ashraf",
+        "Justice",
+        "Mark"
+      ]
+    },
+    {
+      "name": "IPAM UCLA: AI in Materials Science 2027",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "conference",
+      "status": "published",
+      "description": "AI + physics for materials discovery (long programme)",
+      "location": "",
+      "url": "https://atomgrants.com/grant/artificial-intelligence-materials-science-institute-for-pure-and-applied-mathematics",
+      "deadline": "2027-04-16",
+      "deadline_text": "16 Apr 2027",
+      "suggested_members": [
+        "Joseph",
+        "Ashraf",
+        "Mark"
+      ]
+    },
+    {
+      "name": "MMM12 tutorials (Nov 2026)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "workshop",
+      "status": "published",
+      "description": "DFT/LAMMPS/MOOSE/agentic-AI hands-on",
+      "location": "Nov 2026",
+      "url": "https://www.mmm12.org/tutorial-sessions/",
+      "deadline": null,
+      "deadline_text": "Per tutorial",
+      "suggested_members": [
+        "Abdul Rahman"
+      ]
+    },
+    {
+      "name": "RASPA molecular-simulation workshop (UMass)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "workshop",
+      "status": "published",
+      "description": "MD/MC, MOFs/zeolites, ML for nanoporous materials",
+      "location": "UMass",
+      "url": "https://bai.group/blog/raspa-workshop-2026/",
+      "deadline": null,
+      "deadline_text": "Watch 2027",
+      "suggested_members": [
+        "Abdul Rahman"
+      ]
+    },
+    {
+      "name": "TMS 2027 AI/ML for Materials Discovery (Orlando)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "conference",
+      "status": "published",
+      "description": "AI/ML/data informatics for materials",
+      "location": "Orlando",
+      "url": "https://www.tms.org/tms2027/downloads/flyers/TMS2027-CFA-Flyer-022.pdf",
+      "deadline": null,
+      "deadline_text": "2027 closed; 2028",
+      "suggested_members": [
+        "Ashraf"
+      ]
+    },
+    {
+      "name": "AMRS 2026 (Nairobi, 5–10 Dec 2026)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "conference",
+      "status": "published",
+      "description": "13th African Materials Research Society conf. (500+); energy, health, AI, mining",
+      "location": "Nairobi",
+      "url": "https://africanmrs.net/kenya-2026/",
+      "deadline": null,
+      "deadline_text": "Abstracts passed; reg. may be open",
+      "suggested_members": [
+        "Benard",
+        "Ellen",
+        "Seth",
+        "Abdul Rahman",
+        "Ashraf",
+        "Justice",
+        "Mark",
+        "David"
+      ]
+    },
+    {
+      "name": "Psi-k: Defects in Solids (Cambridge, 6–8 Jan 2027)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "conference",
+      "status": "published",
+      "description": "Computational methods for defects",
+      "location": "Cambridge",
+      "url": "https://psi-k.net/workshops/",
+      "deadline": null,
+      "deadline_text": "Registration",
+      "suggested_members": [
+        "Benard",
+        "Seth",
+        "David"
+      ]
+    },
+    {
+      "name": "Psi-k: Total Energy & Force Methods (Trieste, 13–15 Jan 2027)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "workshop",
+      "status": "published",
+      "description": "DFT methodology workshop",
+      "location": "Trieste",
+      "url": "https://psi-k.net/workshops/",
+      "deadline": null,
+      "deadline_text": "Registration",
+      "suggested_members": [
+        "Benard",
+        "Ellen",
+        "Seth",
+        "Justice",
+        "Mark",
+        "David"
+      ]
+    },
+    {
+      "name": "Psi-k: Automating Atomistic Machine Learning (Lausanne, 25–27 Jan 2027)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "conference",
+      "status": "published",
+      "description": "ML interatomic potentials",
+      "location": "Lausanne",
+      "url": "https://psi-k.net/workshops/",
+      "deadline": null,
+      "deadline_text": "Registration",
+      "suggested_members": [
+        "Ashraf",
+        "Mark",
+        "David"
+      ]
+    },
+    {
+      "name": "Psi-k: Academia–Industry–Policy Synergies (Modena, 1–3 Feb 2027)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "conference",
+      "status": "published",
+      "description": "Materials innovation ecosystem",
+      "location": "Modena",
+      "url": "https://psi-k.net/workshops/",
+      "deadline": null,
+      "deadline_text": "Registration",
+      "suggested_members": [
+        "Mark",
+        "Quarshie",
+        "Martin"
+      ]
+    },
+    {
+      "name": "Psi-k: Theoretical Spectroscopy Lectures (Lausanne, 8–12 Mar 2027)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "conference",
+      "status": "published",
+      "description": "Spectroscopy theory",
+      "location": "Lausanne",
+      "url": "https://psi-k.net/workshops/",
+      "deadline": null,
+      "deadline_text": "Registration",
+      "suggested_members": [
+        "Ellen",
+        "David"
+      ]
+    },
+    {
+      "name": "CECAM-Lorentz: Fracture of Amorphous Materials (Lausanne, 12–16 Apr 2027)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "conference",
+      "status": "published",
+      "description": "Multiscale fracture modelling",
+      "location": "Lausanne",
+      "url": "https://www.lorentzcenter.nl/the-outcome-of-the-2027-cecam-lorentz-call-is-here.html",
+      "deadline": null,
+      "deadline_text": "Registration",
+      "suggested_members": [
+        "Mark",
+        "David"
+      ]
+    },
+    {
+      "name": "Heat Treat 2027 (ASM, Columbus, 5–7 Oct 2027)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "grant",
+      "status": "published",
+      "description": "Quenching/distortion, induction hardening modelling, AI/ICME; student travel grants",
+      "location": "ASM",
+      "url": "https://www.asminternational.org/heat-treat-event/cfp",
+      "deadline": "2027-02-05",
+      "deadline_text": "5 Feb 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "COMSOL Conference 2027 Strasbourg (27–29 Oct 2027)",
+      "category": "MATERIALS MODELLING & MOF/DFT",
+      "kind": "conference",
+      "status": "published",
+      "description": "Multiphysics user conference; posters + proceedings",
+      "location": "",
+      "url": "https://www.comsol.com/events/special/comsol-conference-2027-strasbourg-139292",
+      "deadline": "2027-07-01",
+      "deadline_text": "Abstracts May–Jul 2027",
+      "suggested_members": [
+        "Eugene"
+      ]
+    },
+    {
+      "name": "AWaTEC27 (Varese, 16 Mar 2027)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Water treatment for emerging contaminants; AI-in-water session",
+      "location": "Varese",
+      "url": "https://awatec27.dista.uninsubria.it/",
+      "deadline": "2026-12-31",
+      "deadline_text": "31 Dec 2026",
+      "suggested_members": [
+        "Joseph",
+        "Ashraf",
+        "Ahmed",
+        "Justice",
+        "Mark"
+      ]
+    },
+    {
+      "name": "EMP-Global 2027 (ICTP, 16–27 Aug 2027)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "grant",
+      "status": "published",
+      "description": "Free energy-modelling school; 10 tool tracks; grants",
+      "location": "ICTP",
+      "url": "https://indico.ictp.it/event/11453",
+      "deadline": "2027-04-01",
+      "deadline_text": "Mar–Apr 2027",
+      "suggested_members": [
+        "Patience",
+        "Adonu",
+        "Mark"
+      ]
+    },
+    {
+      "name": "EMP-A 2027 (UCT)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Energy Modelling Platform for Africa",
+      "location": "UCT",
+      "url": "https://climatecompatiblegrowth.com/energy-modelling-platform-for-africa-emp-a-2026/",
+      "deadline": null,
+      "deadline_text": "Watch (annual)",
+      "suggested_members": [
+        "Patience",
+        "Adonu"
+      ]
+    },
+    {
+      "name": "openmod Workshop (Africa)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Open energy-system modelling community",
+      "location": "Africa",
+      "url": "https://forum.openmod.org/",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": [
+        "Patience",
+        "Ashalley"
+      ]
+    },
+    {
+      "name": "ICH: Modeling Integrated Power Markets: Africa",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "PyPSA power-market modelling (Johannesburg)",
+      "location": "",
+      "url": "https://ich.no/modeling-integrated-power-markets-africa/",
+      "deadline": null,
+      "deadline_text": "Watch 2027",
+      "suggested_members": [
+        "Patience"
+      ]
+    },
+    {
+      "name": "AEMN / openmod4Africa workshops",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "workshop",
+      "status": "published",
+      "description": "African energy-modelling network trainings",
+      "location": "",
+      "url": "https://openmod4africa.eu/",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": [
+        "Patience",
+        "Ashalley"
+      ]
+    },
+    {
+      "name": "ICQE 2027 (MIT, 13–16 Jun 2027)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Quantum technology for energy",
+      "location": "MIT",
+      "url": "https://icqe.mit.edu/",
+      "deadline": "2027-04-01",
+      "deadline_text": "1 Apr 2027",
+      "suggested_members": [
+        "Patience",
+        "Awuley"
+      ]
+    },
+    {
+      "name": "IC-AISMART 2027 (26–27 Aug 2027)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Agrivoltaics innovations: smart farming + renewables + ML",
+      "location": "",
+      "url": "https://www.ic-aismart.com/call-for-paper",
+      "deadline": "2027-05-10",
+      "deadline_text": "10 May 2027",
+      "suggested_members": [
+        "Adonu"
+      ]
+    },
+    {
+      "name": "Agrivoltaics Europe (Stuttgart, 17–19 Nov 2026)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Industry–research agrivoltaics platform",
+      "location": "Stuttgart",
+      "url": "https://www.leadventgrp.com/events/5th-annual-agrivoltaics-europe/details",
+      "deadline": null,
+      "deadline_text": "Register now",
+      "suggested_members": [
+        "Adonu"
+      ]
+    },
+    {
+      "name": "Agrivoltaics World Conference (annual)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "PV + agriculture scientific/policy conference",
+      "location": "annual",
+      "url": "https://www.agrivoltaics-conference.org/",
+      "deadline": null,
+      "deadline_text": "Watch 2027",
+      "suggested_members": [
+        "Adonu"
+      ]
+    },
+    {
+      "name": "IPV Conference (integrated PV)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "BIPV, agrivoltaics and VIPV; EPJ Photovoltaics",
+      "location": "integrated PV",
+      "url": "https://www.ipv-conference.com/call-for-projects/",
+      "deadline": null,
+      "deadline_text": "Watch 2027",
+      "suggested_members": [
+        "Adonu"
+      ]
+    },
+    {
+      "name": "IWA Water Reuse 2027",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Water reuse; digital water, AI, treatment",
+      "location": "",
+      "url": "https://www.awa.asn.au/iwareuse2027/call-for-abstracts",
+      "deadline": null,
+      "deadline_text": "Call open",
+      "suggested_members": [
+        "Ahmed"
+      ]
+    },
+    {
+      "name": "ICWPT 2027 (12th)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Water pollution & treatment; emerging contaminants",
+      "location": "",
+      "url": "https://www.icwpt.net/cfp.html",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": [
+        "Ahmed"
+      ]
+    },
+    {
+      "name": "NEWEA 2027 Annual Conference",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Clean-water operations; AI/ML watershed sessions",
+      "location": "",
+      "url": "https://www.newea.org/wp-content/uploads/2026/04/AC27_CFA-1.pdf",
+      "deadline": null,
+      "deadline_text": "Per CFA",
+      "suggested_members": [
+        "Ahmed"
+      ]
+    },
+    {
+      "name": "MIMAR 2027 (14th, IMA)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Maintenance/reliability modelling; digital-twin track",
+      "location": "",
+      "url": "https://ima.org.uk/29258/14th-ima-international-conference-on-modelling-in-industrial-maintenance-and-reliability-mimar2027/",
+      "deadline": "2027-02-19",
+      "deadline_text": "19 Feb 2027",
+      "suggested_members": [
+        "Ashalley",
+        "Ahmed"
+      ]
+    },
+    {
+      "name": "IET Digital Twins & Applications Europe (Madrid, 8–9 Jun 2027)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Digital twins across energy/manufacturing/cities",
+      "location": "Madrid",
+      "url": "https://digitaltwins.theiet.org/dta-europe-2027",
+      "deadline": "2027-02-01",
+      "deadline_text": "1 Feb 2027",
+      "suggested_members": [
+        "Ashalley"
+      ]
+    },
+    {
+      "name": "IFAC AMEST/IMS 2027 (Seville, 7–9 Apr 2027)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Predictive→intelligent maintenance; digital twins",
+      "location": "Seville",
+      "url": "https://www.linkedin.com/posts/digest-pn-6727052b0_callforpapers-ifac-amest2027-ims-2027-activity-7502622229021499393-pJOU",
+      "deadline": "2026-11-30",
+      "deadline_text": "30 Nov 2026",
+      "suggested_members": [
+        "Ashalley"
+      ]
+    },
+    {
+      "name": "IWSHM 2027 (Stanford)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Structural health monitoring; DT/prognostics",
+      "location": "Stanford",
+      "url": "https://iwshm2027.stanford.edu/call_for_paper",
+      "deadline": "2027-02-01",
+      "deadline_text": "1 Feb 2027",
+      "suggested_members": [
+        "Ashalley"
+      ]
+    },
+    {
+      "name": "SPIE SSN09: Digital Twins, AI & NDE (Mar 2027)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "DT/AI for industry & energy systems",
+      "location": "Mar 2027",
+      "url": "https://spie.org/SS27/conferencedetails/digital-twins-ai-nde-for-industry-applications-and-energy-systems",
+      "deadline": null,
+      "deadline_text": "Passed; 2028",
+      "suggested_members": [
+        "Ashalley"
+      ]
+    },
+    {
+      "name": "EM-27 Electromicrobiology Conf. (Aarhus, 2–4 Jun 2027)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Electroactive microbes, MFCs, electrodes",
+      "location": "Aarhus",
+      "url": "https://conferences.au.dk/electromicrobiology-2027",
+      "deadline": null,
+      "deadline_text": "Watch 2027",
+      "suggested_members": [
+        "Patience"
+      ]
+    },
+    {
+      "name": "MEEP 2027 (Microbial/Enzymatic Electrochemistry)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "MFCs, electrolysers, reactor scale-up",
+      "location": "Microbial/Enzymatic Electrochemistry",
+      "url": "https://www.i-meep.com/2027",
+      "deadline": null,
+      "deadline_text": "Watch 2027",
+      "suggested_members": [
+        "Patience"
+      ]
+    },
+    {
+      "name": "EBNet Bioelectrochemical Systems WG",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Free webinars + BES practical workshops",
+      "location": "",
+      "url": "https://ebnet.ac.uk/wg-details/wg-bes/",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": [
+        "Patience"
+      ]
+    },
+    {
+      "name": "TRAMPOLINe EU training network (2025–2028)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Industrial MET training; ESR recruitment",
+      "location": "",
+      "url": "https://water.imdea.org/bioe-project/trampoline/",
+      "deadline": null,
+      "deadline_text": "Watch",
+      "suggested_members": [
+        "Patience"
+      ]
+    },
+    {
+      "name": "VKI Lecture Series: Introduction to CFD (25–29 Jan 2027)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "FV/FE methods, HPC, turbulence (Belgium/online)",
+      "location": "",
+      "url": "https://ls.vki.ac.be/store/lsdetails/229/introduction-to-computational-fluid-dynamics-2027",
+      "deadline": "2026-11-25",
+      "deadline_text": "25 Nov 2026 (early)",
+      "suggested_members": [
+        "Patrick"
+      ]
+    },
+    {
+      "name": "OpenFOAM Workshop OFW22 (Delft, 28 Jun–2 Jul 2027)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "workshop",
+      "status": "published",
+      "description": "OpenFOAM CFD community meeting",
+      "location": "Delft",
+      "url": "https://ofw22.carrd.co/",
+      "deadline": null,
+      "deadline_text": "2027",
+      "suggested_members": [
+        "Patrick"
+      ]
+    },
+    {
+      "name": "WAC CFD Semester (online, 5-month)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Supervised CFD MSc-style programme",
+      "location": "online",
+      "url": "https://www.world-academies.com/cfd-education-semester/",
+      "deadline": null,
+      "deadline_text": "Watch R2/R3 2027",
+      "suggested_members": [
+        "Patrick"
+      ]
+    },
+    {
+      "name": "ICTP Spring College: Physics of Complex Systems (15–26 Feb 2027)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Free; fluids/complex systems",
+      "location": "",
+      "url": "https://www.ictp.it/home/scientific-calendar",
+      "deadline": "2026-12-20",
+      "deadline_text": "20 Dec 2026",
+      "suggested_members": [
+        "Patrick"
+      ]
+    },
+    {
+      "name": "Ghana School on Non-Equilibrium Physics (Accra, 5–16 Jul 2027)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Non-equilibrium transport; ICTP-aided",
+      "location": "Accra",
+      "url": "https://indico.ictp.it/event/11443/",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": [
+        "Patrick"
+      ]
+    },
+    {
+      "name": "PDEs & Randomness 2027 (AIMS Kigali, 1–11 Dec 2027)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Fully funded probability + PDE school",
+      "location": "AIMS Kigali",
+      "url": "https://sy-m.org/pdes-and-randomness.html",
+      "deadline": "2027-09-15",
+      "deadline_text": "15 Sep 2027",
+      "suggested_members": [
+        "Patrick",
+        "Jonathan"
+      ]
+    },
+    {
+      "name": "ICTP AI for Emulation/Surrogate Modeling (Jun 2027)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "AI surrogates for science; free + aid",
+      "location": "Jun 2027",
+      "url": "https://www.ictp.it/home/scientific-calendar",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": [
+        "Ashalley",
+        "Jonathan",
+        "Ahmed"
+      ]
+    },
+    {
+      "name": "Deep Learning Indaba 2027 (15–20 Aug 2027)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "workshop",
+      "status": "published",
+      "description": "African ML conference; QML4Africa workshop",
+      "location": "",
+      "url": "https://deeplearningindaba.com/",
+      "deadline": "2027-01-10",
+      "deadline_text": "10 Jan 2027",
+      "suggested_members": [
+        "Ashalley",
+        "Jonathan",
+        "Ashraf"
+      ]
+    },
+    {
+      "name": "IWA LET27 (Ghent, 24–28 May 2027)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Leading Edge Conf. on Water & Wastewater Technologies",
+      "location": "Ghent",
+      "url": "https://ebnet.ac.uk/iwa-let27-abstracts-deadline/",
+      "deadline": "2026-10-20",
+      "deadline_text": "20 Oct 2026",
+      "suggested_members": [
+        "Patience",
+        "Ahmed",
+        "Mark"
+      ]
+    },
+    {
+      "name": "IWRA XX World Water Congress (Istanbul, 4–8 Oct 2027)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Global water resources congress",
+      "location": "Istanbul",
+      "url": "https://www.iwra.org/events/world-water-congress/",
+      "deadline": null,
+      "deadline_text": "Call open",
+      "suggested_members": [
+        "Patience",
+        "Jonathan",
+        "Ahmed",
+        "Mark"
+      ]
+    },
+    {
+      "name": "IWA World Water Congress (Glasgow 2026; W&D 2027)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Full water-cycle global congress",
+      "location": "Glasgow 2026; W&D 2027",
+      "url": "https://worldwatercongress.org/",
+      "deadline": null,
+      "deadline_text": "Per edition",
+      "suggested_members": [
+        "Patience",
+        "Ahmed",
+        "Mark"
+      ]
+    },
+    {
+      "name": "SWAN 17th Annual Conference (Porto, 18–20 May 2027)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Smart-water DT/AI workshops; young-professional day",
+      "location": "Porto",
+      "url": "https://swan-forum.com/events/swan-2027",
+      "deadline": "2026-12-06",
+      "deadline_text": "4–6 Dec 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "IWA-ASPIRE 2027 (Manila, 25–30 Oct 2027)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Digital water systems, AI & data incl. digital twins",
+      "location": "Manila",
+      "url": "https://www.iwaaspire2027.org/blank-4",
+      "deadline": "2027-01-29",
+      "deadline_text": "29 Jan 2027 (TBC)",
+      "suggested_members": []
+    },
+    {
+      "name": "DigiTwin 2027 (Barcelona)",
+      "category": "ENERGY, WATER & DIGITAL TWINS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Digital Twin International Conference; special-session call open",
+      "location": "Barcelona",
+      "url": "https://idea-global.net/Listofevents/info.aspx?itemid=828",
+      "deadline": null,
+      "deadline_text": "Watch",
+      "suggested_members": []
+    },
+    {
+      "name": "EGU27 (Vienna, 4–9 Apr 2027)",
+      "category": "SEISMOLOGY, GEOSCIENCE & OCEAN",
+      "kind": "conference",
+      "status": "published",
+      "description": "Europe's largest geoscience meeting; seismology/ocean/hydrology",
+      "location": "Vienna",
+      "url": "https://www.egu27.eu/",
+      "deadline": "2027-01-12",
+      "deadline_text": "12 Jan 2027",
+      "suggested_members": [
+        "Jonathan",
+        "Isaac"
+      ]
+    },
+    {
+      "name": "IUGG/IASPEI 2027 (Incheon, 16–22 Jul 2027)",
+      "category": "SEISMOLOGY, GEOSCIENCE & OCEAN",
+      "kind": "grant",
+      "status": "published",
+      "description": "Seismology, geodesy, hazard; travel grants",
+      "location": "Incheon",
+      "url": "https://iugg2027korea.org/?hl=ENG",
+      "deadline": "2027-02-16",
+      "deadline_text": "16 Feb 2027",
+      "suggested_members": [
+        "Jonathan",
+        "Isaac"
+      ]
+    },
+    {
+      "name": "OCEANS 2027 Aberdeen (21–24 Jun 2027)",
+      "category": "SEISMOLOGY, GEOSCIENCE & OCEAN",
+      "kind": "conference",
+      "status": "published",
+      "description": "Marine technology & ocean observation",
+      "location": "",
+      "url": "https://aberdeen27.oceansconference.org/2027-call-for-abstracts/",
+      "deadline": "2027-01-15",
+      "deadline_text": "15 Jan 2027",
+      "suggested_members": [
+        "Isaac"
+      ]
+    },
+    {
+      "name": "XMAS 2027 (Xiamen, 12–15 Jan 2027)",
+      "category": "SEISMOLOGY, GEOSCIENCE & OCEAN",
+      "kind": "conference",
+      "status": "published",
+      "description": "Marine environmental sciences; seismic-oceanography session S76",
+      "location": "Xiamen",
+      "url": "https://www.aconf.org/conf_228283/contribution/507.html",
+      "deadline": "2027-01-15",
+      "deadline_text": "Reg 15 Jan 2027",
+      "suggested_members": [
+        "Isaac"
+      ]
+    },
+    {
+      "name": "WHOI GFD Program 2027 (Woods Hole)",
+      "category": "SEISMOLOGY, GEOSCIENCE & OCEAN",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "8-week GFD fellowship; 9,200 stipend",
+      "location": "Woods Hole",
+      "url": "https://gfd.whoi.edu/",
+      "deadline": "2027-02-01",
+      "deadline_text": "Feb 2027",
+      "suggested_members": [
+        "Isaac"
+      ]
+    },
+    {
+      "name": "ICTP Climate Dynamics Summer School (12–23 Jul 2027)",
+      "category": "SEISMOLOGY, GEOSCIENCE & OCEAN",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Waves/extremes; free + aid",
+      "location": "",
+      "url": "https://indico.ictp.it/event/11444/overview",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": [
+        "Isaac"
+      ]
+    },
+    {
+      "name": "AfSC 2026 (Ile-Ife, 30 Nov–3 Dec 2026)",
+      "category": "SEISMOLOGY, GEOSCIENCE & OCEAN",
+      "kind": "conference",
+      "status": "published",
+      "description": "African Seismological Commission GA; student reg free",
+      "location": "Ile-Ife",
+      "url": "https://afsc2026.oauife.edu.ng/",
+      "deadline": "2026-11-30",
+      "deadline_text": "Late reg 30 Nov 2026",
+      "suggested_members": [
+        "Jonathan",
+        "Isaac"
+      ]
+    },
+    {
+      "name": "SEG IWMG 2026 (Beijing, 30 Oct–1 Nov 2026)",
+      "category": "SEISMOLOGY, GEOSCIENCE & OCEAN",
+      "kind": "conference",
+      "status": "published",
+      "description": "Mathematical geophysics; foundation models",
+      "location": "Beijing",
+      "url": "https://seg.org/calendar_events/2026-seg-6th-international-workshop-on-mathematical-geophysics/",
+      "deadline": null,
+      "deadline_text": "Passed; 2027",
+      "suggested_members": [
+        "Isaac"
+      ]
+    },
+    {
+      "name": "ML4SEG 2026 (Sicily)",
+      "category": "SEISMOLOGY, GEOSCIENCE & OCEAN",
+      "kind": "conference",
+      "status": "published",
+      "description": "ML for solid-earth geosciences & earthquake physics",
+      "location": "Sicily",
+      "url": "https://www.ml4seg.org/",
+      "deadline": null,
+      "deadline_text": "Passed; 2027",
+      "suggested_members": [
+        "Isaac"
+      ]
+    },
+    {
+      "name": "EarthScope SSBW (virtual)",
+      "category": "SEISMOLOGY, GEOSCIENCE & OCEAN",
+      "kind": "conference",
+      "status": "published",
+      "description": "Free 70-h seismology skill-building course",
+      "location": "virtual",
+      "url": "https://www.earthscope.org/event/2026-seismology-skill-building-workshop-ssbw/",
+      "deadline": null,
+      "deadline_text": "Annual",
+      "suggested_members": [
+        "Jonathan"
+      ]
+    },
+    {
+      "name": "GEOEACE 2027 (Nairobi, 22–26 Feb 2027)",
+      "category": "SEISMOLOGY, GEOSCIENCE & OCEAN",
+      "kind": "conference",
+      "status": "published",
+      "description": "African geoscience; groundwater & geo-hazards",
+      "location": "Nairobi",
+      "url": "https://gsk.or.ke/geoeace27/",
+      "deadline": "2027-02-01",
+      "deadline_text": "Feb 2027",
+      "suggested_members": [
+        "Abdul Rahman",
+        "Jonathan"
+      ]
+    },
+    {
+      "name": "CAG 31 (Accra, 19–24 Sep 2027)",
+      "category": "SEISMOLOGY, GEOSCIENCE & OCEAN",
+      "kind": "conference",
+      "status": "published",
+      "description": "31st Colloquium of African Geology; groundwater/AI",
+      "location": "Accra",
+      "url": "https://www.cag31gh.org/",
+      "deadline": null,
+      "deadline_text": "2027 call",
+      "suggested_members": [
+        "Abdul Rahman",
+        "Jonathan"
+      ]
+    },
+    {
+      "name": "Geophysics Without Borders (Khobar, 6–8 Apr 2027)",
+      "category": "SEISMOLOGY, GEOSCIENCE & OCEAN",
+      "kind": "conference",
+      "status": "published",
+      "description": "Hydrogeophysics & water security (SEG)",
+      "location": "Khobar",
+      "url": "https://seg.org/calendar_events/geophysics-without-borders-2027/",
+      "deadline": null,
+      "deadline_text": "TBC",
+      "suggested_members": [
+        "Jonathan"
+      ]
+    },
+    {
+      "name": "Geophysics Beyond Hydrocarbons (Riyadh, 7–8 Apr 2027)",
+      "category": "SEISMOLOGY, GEOSCIENCE & OCEAN",
+      "kind": "conference",
+      "status": "published",
+      "description": "Near-surface, mining, geothermal, water (SEG)",
+      "location": "Riyadh",
+      "url": "https://seg.org/calendar_events/geophysics-beyond-hydrocarbons-2027/",
+      "deadline": null,
+      "deadline_text": "TBC",
+      "suggested_members": [
+        "Jonathan"
+      ]
+    },
+    {
+      "name": "SEG/AGU Hydrogeophysics Workshop",
+      "category": "SEISMOLOGY, GEOSCIENCE & OCEAN",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Groundwater geophysics; student grants",
+      "location": "",
+      "url": "https://seg.org/calendar_events/seg-agu-hydrogeophysics-workshop/",
+      "deadline": null,
+      "deadline_text": "Watch 2027/28",
+      "suggested_members": [
+        "Jonathan"
+      ]
+    },
+    {
+      "name": "ICTP Lithospheric Structure: Earthquakes & Volcanoes (Oct 2027)",
+      "category": "SEISMOLOGY, GEOSCIENCE & OCEAN",
+      "kind": "conference",
+      "status": "published",
+      "description": "Seismology conference (Trieste)",
+      "location": "Oct 2027",
+      "url": "https://www.ictp.it/home/scientific-calendar",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": [
+        "Isaac"
+      ]
+    },
+    {
+      "name": "ICTP Hydro-Geophysics / Open Hardware workshop (Oct 2027)",
+      "category": "SEISMOLOGY, GEOSCIENCE & OCEAN",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Hydro-geophysics methods",
+      "location": "Oct 2027",
+      "url": "https://www.ictp.it/home/scientific-calendar",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": [
+        "Jonathan"
+      ]
+    },
+    {
+      "name": "COSZO Early Career Workshop (Seattle)",
+      "category": "SEISMOLOGY, GEOSCIENCE & OCEAN",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Subduction zones, seafloor observation, EEW",
+      "location": "Seattle",
+      "url": "https://coszo.org/",
+      "deadline": null,
+      "deadline_text": "TBD 2027",
+      "suggested_members": [
+        "Isaac"
+      ]
+    },
+    {
+      "name": "Sexten ``Break-Game-Set'' (8–12 Feb 2027)",
+      "category": "ASTROPHYSICS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Disk evolution & planet formation debate (Italy)",
+      "location": "",
+      "url": "https://www.sexten-cfa.eu/event/bgs27/",
+      "deadline": null,
+      "deadline_text": "Early 2027",
+      "suggested_members": [
+        "Collins"
+      ]
+    },
+    {
+      "name": "Sagan Summer Workshop 2027 (Caltech, 19–23 Jul 2027)",
+      "category": "ASTROPHYSICS",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Exoplanets/planet formation; free; grad/postdoc",
+      "location": "Caltech",
+      "url": "https://vmnexsci.ipac.caltech.edu/workshop/2027/",
+      "deadline": null,
+      "deadline_text": "2027",
+      "suggested_members": [
+        "Collins"
+      ]
+    },
+    {
+      "name": "GRC Origins of Solar Systems 2027 (13–18 Jun 2027)",
+      "category": "ASTROPHYSICS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Planet formation; disk solids & planetesimals",
+      "location": "",
+      "url": "https://www.grc.org/origins-of-solar-systems-conference/2027/",
+      "deadline": "2027-05-16",
+      "deadline_text": "16 May 2027",
+      "suggested_members": [
+        "Collins"
+      ]
+    },
+    {
+      "name": "KIAA Planet-Formation School/Workshop (Peking Univ.)",
+      "category": "ASTROPHYSICS",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Six-week school + workshop; N-body/MHD numerics",
+      "location": "Peking Univ.",
+      "url": "https://kiaa.pku.edu.cn/info/1031/11282.htm",
+      "deadline": null,
+      "deadline_text": "Watch 2027",
+      "suggested_members": [
+        "Collins"
+      ]
+    },
+    {
+      "name": "EAS / AAS-DPS 2027 meetings",
+      "category": "ASTROPHYSICS",
+      "kind": "conference",
+      "status": "published",
+      "description": "European/American astronomy & planetary science",
+      "location": "",
+      "url": null,
+      "deadline": null,
+      "deadline_text": "Watch calls",
+      "suggested_members": [
+        "Collins"
+      ]
+    },
+    {
+      "name": "APS Global Physics Summit 2027",
+      "category": "AFRICAN PHYSICS, MATH & GENERAL",
+      "kind": "conference",
+      "status": "published",
+      "description": "Largest physics meeting; contributed abstracts",
+      "location": "",
+      "url": "https://summit.aps.org/attend/abstracts/",
+      "deadline": "2026-10-22",
+      "deadline_text": "22 Oct 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "ASP2026 (Nairobi, 5–19 Jul 2026)",
+      "category": "AFRICAN PHYSICS, MATH & GENERAL",
+      "kind": "workshop",
+      "status": "published",
+      "description": "African School of Fundamental Physics",
+      "location": "Nairobi",
+      "url": "https://africanschoolofphysics.org/",
+      "deadline": null,
+      "deadline_text": "Passed; ASP2027",
+      "suggested_members": []
+    },
+    {
+      "name": "ACP2027 (Livingstone, Zambia, 14–18 Jun 2027)",
+      "category": "AFRICAN PHYSICS, MATH & GENERAL",
+      "kind": "conference",
+      "status": "published",
+      "description": "Biennial African Conference on Fundamental & Applied Physics",
+      "location": "Livingstone",
+      "url": "https://saphysnet.saip.org.za/upcoming-events/",
+      "deadline": null,
+      "deadline_text": "2027",
+      "suggested_members": []
+    },
+    {
+      "name": "SOAPHYS 8th Congress (Ouagadougou)",
+      "category": "AFRICAN PHYSICS, MATH & GENERAL",
+      "kind": "conference",
+      "status": "published",
+      "description": "West African Society of Physics; hybrid",
+      "location": "Ouagadougou",
+      "url": "https://www.lecames.org/wp-content/uploads/2026/05/TDR-SOAPHYS-8th-Congres-08052026ENG.pdf",
+      "deadline": null,
+      "deadline_text": "Passed; 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "ADSC 2026 (Johannesburg)",
+      "category": "AFRICAN PHYSICS, MATH & GENERAL",
+      "kind": "workshop",
+      "status": "published",
+      "description": "African Data Science Conference; QML workshop",
+      "location": "Johannesburg",
+      "url": "https://africandatascienceconference.com/",
+      "deadline": null,
+      "deadline_text": "Passed; 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "MATH4SDG (Arusha, 11–14 Aug 2026)",
+      "category": "AFRICAN PHYSICS, MATH & GENERAL",
+      "kind": "conference",
+      "status": "published",
+      "description": "African-Nordic mathematics conference",
+      "location": "Arusha",
+      "url": "https://math4sdg.udsm.ac.tz/2026-conference",
+      "deadline": null,
+      "deadline_text": "Passed; 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "CIMPA schools in Africa 2027",
+      "category": "AFRICAN PHYSICS, MATH & GENERAL",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Math schools (Makerere, TUK, Côte d'Ivoire, Senegal)",
+      "location": "",
+      "url": "https://www.cimpa.info/",
+      "deadline": "2027-03-19",
+      "deadline_text": "19 Mar 2027 (Makerere)",
+      "suggested_members": [
+        "Ellen",
+        "Justice",
+        "Mark",
+        "David"
+      ]
+    },
+    {
+      "name": "Imbizo (Cape Town, 27 Aug–17 Sep 2027)",
+      "category": "AFRICAN PHYSICS, MATH & GENERAL",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Simons computational neuroscience school",
+      "location": "Cape Town",
+      "url": "https://www.imbizo.africa/",
+      "deadline": "2027-03-01",
+      "deadline_text": "1 Mar 2027",
+      "suggested_members": [
+        "Jonathan"
+      ]
+    },
+    {
+      "name": "ICTP African Workshop on HPC (Benin City, 10–14 May 2027)",
+      "category": "AFRICAN PHYSICS, MATH & GENERAL",
+      "kind": "workshop",
+      "status": "published",
+      "description": "HPC for sustainable development; free + aid",
+      "location": "Benin City",
+      "url": "https://indico.ictp.it/event/11426/",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": []
+    },
+    {
+      "name": "ICTP Associateships (Sub-Saharan Africa)",
+      "category": "AFRICAN PHYSICS, MATH & GENERAL",
+      "kind": "conference",
+      "status": "published",
+      "description": "Travel-covered research visits for faculty",
+      "location": "Sub-Saharan Africa",
+      "url": "https://www.ictp.it/home/associates-programme",
+      "deadline": "2027-02-01",
+      "deadline_text": "Feb 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "Flatiron CCQ Research Fellowships (New York)",
+      "category": "AFRICAN PHYSICS, MATH & GENERAL",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Postdoc computational quantum physics",
+      "location": "New York",
+      "url": "https://www.flatironinstitute.org/careers/",
+      "deadline": null,
+      "deadline_text": "2028 cycle",
+      "suggested_members": []
+    },
+    {
+      "name": "ICTP Scientific Calendar 2027 (72 activities)",
+      "category": "AFRICAN PHYSICS, MATH & GENERAL",
+      "kind": "workshop",
+      "status": "published",
+      "description": "Free schools/workshops across all MCP pathways",
+      "location": "",
+      "url": "https://www.ictp.it/home/scientific-calendar",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": []
+    },
+    {
+      "name": "ISC High Performance 2027 (Hamburg, 7–11 Jun 2027)",
+      "category": "AFRICAN PHYSICS, MATH & GENERAL",
+      "kind": "workshop",
+      "status": "published",
+      "description": "World's oldest HPC/AI/quantum conf. (4,000+); 6 tracks",
+      "location": "Hamburg",
+      "url": "https://isc-hpc.com/",
+      "deadline": "2026-12-04",
+      "deadline_text": "Tutorials 4 Dec 2026; paper 14 Dec 2026; posters 20 Jan 2027",
+      "suggested_members": [
+        "Jonathan",
+        "Collins",
+        "David",
+        "Isaac"
+      ]
+    },
+    {
+      "name": "SC27 (Denver, 14–19 Nov 2027)",
+      "category": "AFRICAN PHYSICS, MATH & GENERAL",
+      "kind": "conference",
+      "status": "published",
+      "description": "Largest HPC conference (13,000+)",
+      "location": "Denver",
+      "url": "https://supercomputing.org/",
+      "deadline": "2027-04-01",
+      "deadline_text": "Abstracts Apr 2027",
+      "suggested_members": [
+        "Jonathan",
+        "Collins",
+        "David",
+        "Isaac"
+      ]
+    },
+    {
+      "name": "ICIAM 2027 (The Hague, 12–16 Jul 2027)",
+      "category": "AFRICAN PHYSICS, MATH & GENERAL",
+      "kind": "grant",
+      "status": "published",
+      "description": "Applied-math congress; Water topical day; poster + travel-grant track",
+      "location": "The Hague",
+      "url": "https://iciam2027.org/",
+      "deadline": "2026-12-07",
+      "deadline_text": "7 Dec 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "ECMI Modelling Week 2027 (Wuppertal, 18–24 Jul 2027)",
+      "category": "AFRICAN PHYSICS, MATH & GENERAL",
+      "kind": "conference",
+      "status": "published",
+      "description": "Industrial modelling week for students; all-inclusive fee",
+      "location": "Wuppertal",
+      "url": "https://ecmimw.uni-wuppertal.de/en",
+      "deadline": "2026-11-01",
+      "deadline_text": "Registration opens 1 Nov 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "GAMM & DMV Joint Meeting 2027 (Ulm, 8–12 Mar 2027)",
+      "category": "AFRICAN PHYSICS, MATH & GENERAL",
+      "kind": "conference",
+      "status": "published",
+      "description": "Applied math & mechanics; master's students EUR 0",
+      "location": "Ulm",
+      "url": "https://jahrestagung.gamm.org/joint-annual-meeting-2027/",
+      "deadline": "2026-12-01",
+      "deadline_text": "1 Dec 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "TWAS SG-NAPI (Seed Grant, New African PIs)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "grant",
+      "status": "published",
+      "description": "Up to USD 67,700; quantum & AI eligible; Ghana eligible",
+      "location": "Seed Grant",
+      "url": "https://twas.org/opportunity/seed-grant-new-african-principal-investigators-sg-napi",
+      "deadline": "2027-03-31",
+      "deadline_text": "31 Mar (annual)",
+      "suggested_members": [
+        "Quarshie",
+        "Martin"
+      ]
+    },
+    {
+      "name": "TWAS Research Grants: Individuals",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "grant",
+      "status": "published",
+      "description": "Basic-sciences research grants; PhD, ≤45",
+      "location": "",
+      "url": "https://www.twas.org/index%2ephp/opportunity/twas-research-grants-programme-basic-sciences-individuals",
+      "deadline": "2026-10-11",
+      "deadline_text": "11 Oct 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "TWAS Collaborative Grants",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "grant",
+      "status": "published",
+      "description": "For prior TWAS recipients; two PIs",
+      "location": "",
+      "url": "https://www.twas.org/opportunity/twas-research-grants-programme-interdisciplinary-research-collaborative-grants",
+      "deadline": "2026-10-31",
+      "deadline_text": "31 Oct 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "TWAS–FAPESP Postdoc Fellowship",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Postdoc in São Paulo, Brazil",
+      "location": "",
+      "url": "https://www.twas.org/opportunity/twas-fapesp-postdoctoral-fellowship-programme-developing-countries",
+      "deadline": "2026-11-01",
+      "deadline_text": "Prelim 1 Nov 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "MCQST Postdoc Fellowship (+ Junior START, Munich)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Fully funded 2-yr quantum postdoc; apply without host",
+      "location": "+ Junior START",
+      "url": "https://www.mcqst.de/support/postdoctoral-programs/postdoc-fellowship.html",
+      "deadline": "2026-10-24",
+      "deadline_text": "24 Oct 2026",
+      "suggested_members": [
+        "Quarshie"
+      ]
+    },
+    {
+      "name": "Princeton PCCM Materials Science Postdoc",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "12-mo, renewable to 3 yr; quantum materials",
+      "location": "",
+      "url": "https://pccm.princeton.edu/education/postdoc-fellowship",
+      "deadline": "2026-11-01",
+      "deadline_text": "1 Nov 2026",
+      "suggested_members": [
+        "Quarshie"
+      ]
+    },
+    {
+      "name": "Swiss Government Excellence Scholarship",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "12-mo Switzerland research stay; host supervisor; age ≤35",
+      "location": "",
+      "url": "https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships",
+      "deadline": "2026-11-27",
+      "deadline_text": "27 Nov 2026 (Ghana)",
+      "suggested_members": [
+        "Quarshie"
+      ]
+    },
+    {
+      "name": "ICTP Postdoctoral Fellowships (CMSP)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "2+1 yr; EUR 2,100–2,300/mo; developing-country preference",
+      "location": "CMSP",
+      "url": "https://www.ictp.it/home/postdoctoral-opportunities",
+      "deadline": null,
+      "deadline_text": "Watch / TBA",
+      "suggested_members": [
+        "Quarshie"
+      ]
+    },
+    {
+      "name": "ARUA Early-Career Research Fellowship",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "6-mo; US2,000/mo; KNUST member; age ≤35",
+      "location": "",
+      "url": "https://arua.org/early-career-research-fellowships",
+      "deadline": "2027-01-01",
+      "deadline_text": "Jan 2027 (expected)",
+      "suggested_members": [
+        "Quarshie"
+      ]
+    },
+    {
+      "name": "MSCA Postdoctoral Fellowships 2027",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "12–24 mo EU host; any nationality; ERA option",
+      "location": "",
+      "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/funding/msca-postdoctoral-fellowships-2027",
+      "deadline": "2027-09-08",
+      "deadline_text": "8 Sep 2027",
+      "suggested_members": [
+        "Quarshie"
+      ]
+    },
+    {
+      "name": "AAS ARISE (cohort 2)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "5-yr grants to EUR 500,000; teams incl. postdocs",
+      "location": "cohort 2",
+      "url": "https://arise.aasciences.africa/",
+      "deadline": null,
+      "deadline_text": "Watch",
+      "suggested_members": [
+        "Quarshie"
+      ]
+    },
+    {
+      "name": "ICTP Associateships (Junior/Regular/Senior)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "6-yr appointment; 3 visits of 30–60 days",
+      "location": "Junior/Regular/Senior",
+      "url": "https://www.ictp.it/home/associates-programme",
+      "deadline": "2027-01-31",
+      "deadline_text": "31 Jan 2027 (Junior)",
+      "suggested_members": [
+        "Quarshie"
+      ]
+    },
+    {
+      "name": "Novo Nordisk Challenge 2027",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Up to EUR 75M; Earth-abundant materials, quantum",
+      "location": "",
+      "url": "https://ogr.knust.edu.gh/funding/novo-nordisk-foundation-challenge-programme-2027-harnessing-novel-earth-abundant-materials",
+      "deadline": "2026-10-07",
+      "deadline_text": "7 Oct 2026",
+      "suggested_members": [
+        "Quarshie",
+        "Abavare"
+      ]
+    },
+    {
+      "name": "NordForsk G7-Nordic Quantum Technologies",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "NOK 7M; quantum computing/sensing/materials",
+      "location": "",
+      "url": "https://www2.fundsforngos.org/science/applications-open-for-quantum-technologies-funding-program/",
+      "deadline": "2026-09-24",
+      "deadline_text": "24 Sep 2026",
+      "suggested_members": [
+        "Quarshie",
+        "Martin"
+      ]
+    },
+    {
+      "name": "LAAAMP FAST Team Grants",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "grant",
+      "status": "published",
+      "description": "2-month light-source residency; Africa eligible",
+      "location": "",
+      "url": "https://laamp.iucr.org/grants/calls/jan-dec-2027",
+      "deadline": "2026-10-31",
+      "deadline_text": "31 Oct 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "Royal Society Career Development Fellowship",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Early-career research funding + training",
+      "location": "",
+      "url": "https://royalsociety.org/grants/career-development-fellowship/",
+      "deadline": "2026-11-18",
+      "deadline_text": "18 Nov 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "Humboldt Research Fellowship",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "EUR 3,000–3,600/mo, 6–24 mo in Germany",
+      "location": "",
+      "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
+      "deadline": "2026-11-15",
+      "deadline_text": "15 Nov 2026",
+      "suggested_members": [
+        "Quarshie"
+      ]
+    },
+    {
+      "name": "DAAD Research Grants in Germany",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "grant",
+      "status": "published",
+      "description": "2–12 mo research stay",
+      "location": "",
+      "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57742121",
+      "deadline": "2026-09-24",
+      "deadline_text": "24 Sep 2026 / 17 Mar 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "DAAD GROW",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Short research stays in Germany; Sub-Saharan priority",
+      "location": "",
+      "url": "https://www.daad-kenya.org/en/call-for-proposals-applications/",
+      "deadline": null,
+      "deadline_text": "Annual",
+      "suggested_members": []
+    },
+    {
+      "name": "Bayreuth Humboldt Starter Grant 2027",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "grant",
+      "status": "published",
+      "description": "Research stay at Univ. Bayreuth",
+      "location": "",
+      "url": "https://www.humboldt-centre.uni-bayreuth.de/en/applications/index.php",
+      "deadline": "2026-09-15",
+      "deadline_text": "15 Sep 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "Afretec Seed Grants (CMU Africa)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "grant",
+      "status": "published",
+      "description": "Up to USD 30,000; multi-institution; AI/ICT",
+      "location": "CMU Africa",
+      "url": "https://engineering.cmu.edu/afretec/funding-opportunities/index.html",
+      "deadline": "2027-09-14",
+      "deadline_text": "14 Sep (annual)",
+      "suggested_members": []
+    },
+    {
+      "name": "OWSD Early Career Fellowship",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Up to USD 50,000 for women in STEM (Ghana eligible)",
+      "location": "",
+      "url": "https://owsd.net/early-career-fellowship",
+      "deadline": null,
+      "deadline_text": "Watch",
+      "suggested_members": [
+        "Eghan",
+        "Addo"
+      ]
+    },
+    {
+      "name": "OWSD–Elsevier Awards",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "grant",
+      "status": "published",
+      "description": "5 women scientists/yr; 2026 theme energy",
+      "location": "",
+      "url": "https://owsd.net/awards",
+      "deadline": null,
+      "deadline_text": "Annual (Aug)",
+      "suggested_members": []
+    },
+    {
+      "name": "Horizon Europe: RAISE (Automated Scientific Discovery)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "EUR 10M/grant; AI self-driving labs; materials/water",
+      "location": "Automated Scientific Discovery",
+      "url": "https://topictree.ideal-ist.eu/topic/6992",
+      "deadline": "2027-02-02",
+      "deadline_text": "2 Feb 2027",
+      "suggested_members": [
+        "Martin"
+      ]
+    },
+    {
+      "name": "Horizon Europe: FNSSA (water–nutrient–energy, Africa)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "EUR 12M; water/energy nexus for African farms",
+      "location": "water–nutrient–energy",
+      "url": "https://www.horizon-europe.gouv.fr/optimising-water-nutrient-energy-nexus-sustainable-and-climate-smart-agriculture-africa-fnssa-41643",
+      "deadline": "2027-04-08",
+      "deadline_text": "8 Apr 2027",
+      "suggested_members": [
+        "Martin"
+      ]
+    },
+    {
+      "name": "Horizon Europe: Renewable Energy Valleys in Africa",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Energy security/access in Africa",
+      "location": "",
+      "url": "https://www.africaeuropeinnovation.net/fr/opportunites-de-financement/",
+      "deadline": "2027-03-31",
+      "deadline_text": "31 Mar 2027",
+      "suggested_members": [
+        "Martin",
+        "Donkor"
+      ]
+    },
+    {
+      "name": "Horizon Europe: Africa–EU CO-FUND on climate",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Climate research co-funding",
+      "location": "",
+      "url": "https://www.africaeuropeinnovation.net/fr/opportunites-de-financement/",
+      "deadline": "2027-03-04",
+      "deadline_text": "4 Mar 2027",
+      "suggested_members": [
+        "Martin"
+      ]
+    },
+    {
+      "name": "Horizon Europe: CL6-2027-03 GOVERNANCE",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Up to EUR 6M; digital solutions, Green Deal",
+      "location": "",
+      "url": "https://ogr.knust.edu.gh/funding/horizon-cl6-2027-03-governance-innovative-governance-environmental-observations-and-digital",
+      "deadline": "2027-05-11",
+      "deadline_text": "11 May 2027",
+      "suggested_members": [
+        "Martin"
+      ]
+    },
+    {
+      "name": "Cambridge Africa Climate Collaborative Fund",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "£25k–80k; Cambridge + African pair",
+      "location": "",
+      "url": "https://www.cambridge-africa.cam.ac.uk/initiatives/2026-call-for-applications/",
+      "deadline": "2027-01-15",
+      "deadline_text": "15 Jan 2027",
+      "suggested_members": [
+        "Martin"
+      ]
+    },
+    {
+      "name": "ABCD Future Environmental Leaders Scholarships",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "9-mo PhD stay in Germany; digital-twin water",
+      "location": "",
+      "url": "https://opportunityforafrica.org/blog/apply-for-the-abcd-future-environmental-leaders-scholarships-2027-9-month-phd-research-stay-in-germany-for-global-south-scholars/",
+      "deadline": "2026-10-31",
+      "deadline_text": "31 Oct 2026",
+      "suggested_members": [
+        "Martin"
+      ]
+    },
+    {
+      "name": "UCT Africa Climate Collaborative (postdoc / PhD)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "R380k–390k/yr; climate & development",
+      "location": "postdoc / PhD",
+      "url": "https://acdi.uct.ac.za/africaclimatecollaborative/postdoctoral-research-fellowships-climate-and-development",
+      "deadline": "2026-10-29",
+      "deadline_text": "29 Oct 2026",
+      "suggested_members": [
+        "Martin"
+      ]
+    },
+    {
+      "name": "NVIDIA Graduate Fellowship",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "US60,000; incl. quantum computing, AI, HPC",
+      "location": "",
+      "url": "https://research.nvidia.com/graduate-fellowships",
+      "deadline": "2026-10-30",
+      "deadline_text": "30 Oct 2026",
+      "suggested_members": [
+        "Collins",
+        "Mark",
+        "David",
+        "Isaac"
+      ]
+    },
+    {
+      "name": "Wellcome Awards (Early-Career/Career/Discovery)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "grant",
+      "status": "published",
+      "description": "Major UK funder; Africa LMIC eligibility from 29 Oct 2026",
+      "location": "Early-Career/Career/Discovery",
+      "url": "https://wellcome.org/research-funding/guidance/prepare-to-apply/scheme-application-deadlines",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": []
+    },
+    {
+      "name": "Grand Challenges Africa / SFA Foundation",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Up to US200,000; climate & health; Africa-led",
+      "location": "",
+      "url": "https://scienceforafrica.foundation/",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": []
+    },
+    {
+      "name": "African Academy of Sciences (AAS/AESA)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "ARISE, APTI, competitive grants",
+      "location": "AAS/AESA",
+      "url": "https://calls.aasciences.africa/grants",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": []
+    },
+    {
+      "name": "Next Einstein Forum (NEF) Fellows",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Recognises Africa's best young scientists",
+      "location": "NEF",
+      "url": "https://en.wikipedia.org/wiki/Next_Einstein_Forum",
+      "deadline": null,
+      "deadline_text": "Per cycle",
+      "suggested_members": []
+    },
+    {
+      "name": "NVIDIA Academic Grant Program",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "grant",
+      "status": "published",
+      "description": "Up to 30,000 H100 GPU-hours; quantum, physics-informed ML",
+      "location": "",
+      "url": "https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/",
+      "deadline": null,
+      "deadline_text": "Watch",
+      "suggested_members": []
+    },
+    {
+      "name": "Google Academic Research Awards",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "grant",
+      "status": "published",
+      "description": "Up to US100,000; quantum computing",
+      "location": "",
+      "url": "https://research.google/programs-and-events/google-academic-research-awards/",
+      "deadline": null,
+      "deadline_text": "Annual",
+      "suggested_members": []
+    },
+    {
+      "name": "Psi-k activity funding",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "EUR 2,000–10,000 to organise materials-science events",
+      "location": "",
+      "url": "https://psi-k.net/workshop-funding/",
+      "deadline": null,
+      "deadline_text": "2027–28 cycle",
+      "suggested_members": []
+    },
+    {
+      "name": "CECAM flagship / Lorentz proposals",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Organise a CECAM workshop/school",
+      "location": "",
+      "url": "https://www.cecam.org/submit-flagship-proposal",
+      "deadline": null,
+      "deadline_text": "2027–28 cycle",
+      "suggested_members": []
+    },
+    {
+      "name": "African Water Facility Grants (AfDB)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "grant",
+      "status": "published",
+      "description": "EUR 50k–5M; water resources development in Africa",
+      "location": "AfDB",
+      "url": "https://www.fundsforngos.org/latest-funds-for-ngos/the-african-water-facility-grants-on-water-and-climate-change/",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": [
+        "Martin"
+      ]
+    },
+    {
+      "name": "BMBF ``Future Water Supply'' (Germany)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Up to EUR 55M; digital twins for water",
+      "location": "Germany",
+      "url": "https://www.grantbite.com/en/funding/bmbf-future-water-supply-research-funding",
+      "deadline": "2027-06-30",
+      "deadline_text": "30 Jun 2027",
+      "suggested_members": [
+        "Martin"
+      ]
+    },
+    {
+      "name": "NSF DMREF",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "US1.5–2M; closed-loop materials design",
+      "location": "",
+      "url": "https://www.nsf.gov/funding/opportunities/dmref-designing-materials-revolutionize-engineer-our-future",
+      "deadline": null,
+      "deadline_text": "Annual",
+      "suggested_members": []
+    },
+    {
+      "name": "AFOSR–Taiwan NSTC Frontiers in Materials",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "AI-driven materials discovery; quantum geometry",
+      "location": "",
+      "url": "https://ord.ntcu.edu.tw/storage/media/24zz853RTpNndvOfI8OZAvRPgQ1k6EcE2kNbVxJ9.pdf",
+      "deadline": null,
+      "deadline_text": "2027 cycle",
+      "suggested_members": []
+    },
+    {
+      "name": "Young Leaders in Research Grant (ACET)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "grant",
+      "status": "published",
+      "description": "Up to US15,000; early-career African researchers",
+      "location": "ACET",
+      "url": "https://www2.fundsforngos.org/leadership/young-leaders-in-research-grant-for-early-career-african-researchers/",
+      "deadline": "2026-09-07",
+      "deadline_text": "7 Sep 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "EWAP Research Fellowship",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "12-week online; enhanced weathering/climate",
+      "location": "",
+      "url": "https://ewap-project.org/fellowship",
+      "deadline": "2026-11-06",
+      "deadline_text": "EOI 6 Nov 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "beVisioneers Mercedes-Benz Fellowship 2027",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Project scholarships up to EUR 20,000; eco-innovators",
+      "location": "",
+      "url": "https://opportunitypool.org/apply-for-the-bevisioneers-mercedes-benz-fellowship-2027fully-funded/",
+      "deadline": "2027-01-31",
+      "deadline_text": "31 Jan 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "Commonwealth Scholarships 2027/28 (Masters/PhD, UK)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Fully funded 1-yr taught MSc + PhD; Ghana eligible; via CSC Central + Scholsec",
+      "location": "Masters/PhD",
+      "url": "https://cscuk.fcdo.gov.uk/scholarships",
+      "deadline": "2026-10-20",
+      "deadline_text": "20 Oct 2026 / Shared: Dec 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "Chevening Scholarships (UK master's, Ghana)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Fully funded 1-yr UK MSc; leadership route; 2027/28 closed 6 Oct 2026",
+      "location": "UK master's",
+      "url": "https://www.chevening.org/scholarships",
+      "deadline": "2027-08-01",
+      "deadline_text": "Watch: opens Aug 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "Erasmus Mundus Joint Masters 2027 (EU)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Full EU scholarship EUR 1,400/mo + tuition; 200+ joint MSc; any nationality",
+      "location": "EU",
+      "url": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters",
+      "deadline": "2026-12-01",
+      "deadline_text": "Per programme Dec 2026–Jan 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "France Excellence Eiffel 2027 (MSc/PhD)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Fully funded MSc EUR 1,200/mo, PhD EUR 2,100/mo; French institution nominates; age ≤29/35",
+      "location": "MSc/PhD",
+      "url": "https://www.campusfrance.org/en/france-excellence-eiffel-scholarship-program",
+      "deadline": "2027-01-06",
+      "deadline_text": "6 Jan 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "Stipendium Hungaricum 2027/28 (Hungary)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Fully funded BSc/MSc/PhD; tuition + monthly stipend; Ghana is partner country",
+      "location": "Hungary",
+      "url": "https://stipendiumhungaricum.hu/",
+      "deadline": "2027-01-15",
+      "deadline_text": "15 Jan 2027 (Ghana Scholsec)",
+      "suggested_members": []
+    },
+    {
+      "name": "Swedish Institute Scholarships (Sweden)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Fully funded MSc; SEK 10,000/mo + travel grant; Ghana eligible; Women in STEM track",
+      "location": "Sweden",
+      "url": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals",
+      "deadline": "2027-02-28",
+      "deadline_text": "2027/28 Feb 2027 (TBA)",
+      "suggested_members": []
+    },
+    {
+      "name": "Gates Cambridge Scholarship 2027/28",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Fully funded MPhil/DPhil Cambridge; 55 intl awards/yr; any non-UK nationality",
+      "location": "",
+      "url": "https://www.gatescambridge.org/apply/timeline/",
+      "deadline": "2026-12-08",
+      "deadline_text": "8 Dec 2026 / 6 Jan 2027 (course)",
+      "suggested_members": []
+    },
+    {
+      "name": "Clarendon Scholarships (Oxford MSc/DPhil)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "200+ fully funded awards/yr; fees + living grant; automatic consideration",
+      "location": "Oxford MSc/DPhil",
+      "url": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon",
+      "deadline": "2026-12-02",
+      "deadline_text": "2 Dec 2026 / 6 Jan 2027 (course)",
+      "suggested_members": []
+    },
+    {
+      "name": "AIMS Ghana MSc Mathematical Sciences",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Fully funded 1-yr MSc (Accra); tuition + board + stipend; Africans w/ math degree",
+      "location": "",
+      "url": "https://aims.edu.gh/application/masters-in-mathematical-sciences-application",
+      "deadline": "2027-03-23",
+      "deadline_text": "23 Mar 2027",
+      "suggested_members": []
+    },
+    {
+      "name": "Mastercard Foundation Scholars (KNUST)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Undergraduate scholarships at KNUST; 70% women; Phase II runs to 2029",
+      "location": "KNUST",
+      "url": "https://mcf.knust.edu.gh/scholars-program",
+      "deadline": null,
+      "deadline_text": "Via KNUST admission (annual)",
+      "suggested_members": []
+    },
+    {
+      "name": "Schlumberger Faculty for the Future 2027",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Fully funded PhD/postdoc for women in STEM from developing countries; Ghana eligible; abroad host",
+      "location": "",
+      "url": "https://schlumbergerfoundation.com/apply-now/",
+      "deadline": "2026-11-07",
+      "deadline_text": "7 Nov 2026 (refs 14 Nov)",
+      "suggested_members": [
+        "Patience",
+        "Ellen",
+        "Eghan",
+        "Addo"
+      ]
+    },
+    {
+      "name": "L'Oréal-UNESCO SSA Women in Science",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "20 awards: PhD EUR 10,000 + postdoc EUR 15,000; sub-Saharan women scientists",
+      "location": "",
+      "url": "https://www.fondationloreal.com/our-programs-women-science-national-and-regional-young-talents-programs/sub-saharan-africa-young",
+      "deadline": "2027-04-01",
+      "deadline_text": "Feb–Apr 2027 (annual)",
+      "suggested_members": [
+        "Patience",
+        "Ellen",
+        "Eghan",
+        "Addo"
+      ]
+    },
+    {
+      "name": "HFSP Postdoctoral Fellowships (CDF/LTF)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Fully funded 3-yr postdoc, any nationality, must move country; physicists ideal for CDF",
+      "location": "CDF/LTF",
+      "url": "https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships",
+      "deadline": "2027-05-01",
+      "deadline_text": "LOI May 2027 (2028 cycle)",
+      "suggested_members": [
+        "Quarshie"
+      ]
+    },
+    {
+      "name": "JSPS Standard Postdoctoral Fellowship (Japan)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Fully funded 12–24 mo in Japan; host researcher required; PhD <6 yr; any nationality",
+      "location": "Japan",
+      "url": "https://www.jsps.go.jp/english/e-fellow/e-ippan/appliguidelines.html",
+      "deadline": "2027-04-23",
+      "deadline_text": "23 Apr 2027 (2nd round)",
+      "suggested_members": [
+        "Quarshie"
+      ]
+    },
+    {
+      "name": "RIKEN SPDR Fellowship",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "3-yr independent postdoc; JPY 550,000/mo + research funds; physics/chem",
+      "location": "",
+      "url": "https://www.riken.jp/en/careers/programs/spdr",
+      "deadline": "2027-02-28",
+      "deadline_text": "FY2028 Feb–Apr 2027 (watch)",
+      "suggested_members": [
+        "Quarshie"
+      ]
+    },
+    {
+      "name": "FirstPrinciples AI-Native Physicist Fellowship",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "US75–150k/yr; 12-mo AI-centered physics project; global remote",
+      "location": "",
+      "url": "https://www.firstprinciplesfoundation.org/programs",
+      "deadline": "2026-10-31",
+      "deadline_text": "31 Oct 2026",
+      "suggested_members": [
+        "Joseph",
+        "Ashraf",
+        "Quarshie"
+      ]
+    },
+    {
+      "name": "SPIE Scholarships (optics/photonics)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Fully funded US3,000–11,000; worldwide, any nationality; incl. Optics & Photonics Africa awards",
+      "location": "optics/photonics",
+      "url": "https://spie.org/membership/student-hub/scholarships/optics-and-photonics-education-scholarships",
+      "deadline": "2027-02-15",
+      "deadline_text": "15 Feb 2027",
+      "suggested_members": [
+        "Eugene"
+      ]
+    },
+    {
+      "name": "SEG Foundation Scholarships (geophysics)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "US500–10,000 merit awards; undergrad + grad worldwide; one application",
+      "location": "geophysics",
+      "url": "https://seg.org/programs/student-programs/scholarships/",
+      "deadline": "2027-03-01",
+      "deadline_text": "1 Mar 2027",
+      "suggested_members": [
+        "Isaac"
+      ]
+    },
+    {
+      "name": "ESO Studentship (Garching/Chile)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "1–2 yr PhD research at ESO; twice-yearly calls (Apr + Oct)",
+      "location": "Garching/Chile",
+      "url": "http://www.hq.eso.org/sci/activities/fellowships-and-studentships/FeSt-overview.html",
+      "deadline": "2027-04-20",
+      "deadline_text": "20 Apr 2027 (next)",
+      "suggested_members": [
+        "Collins"
+      ]
+    },
+    {
+      "name": "Unitary Foundation Microgrants (quantum)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "US4,000 quantum projects; worldwide, any nationality; no organizational affiliation; open source/education/sensors",
+      "location": "quantum",
+      "url": "https://unitary.foundation/grants",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": [
+        "Joseph",
+        "Kidibe"
+      ]
+    },
+    {
+      "name": "Royal Society International Exchanges",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Up to £12,000 bilateral research visits; KNUST side applies via UK partner",
+      "location": "",
+      "url": "https://royalsociety.org/grants/international-exchanges",
+      "deadline": "2027-02-01",
+      "deadline_text": "2027 rounds: watch ( Feb 2027)",
+      "suggested_members": []
+    },
+    {
+      "name": "ICMCP-26",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Int. Conf. on Methods in Computational Physics (APSTE)",
+      "location": "",
+      "url": "https://apste.net/conf/about-event.php?id=101299816",
+      "deadline": "2026-08-12",
+      "deadline_text": "Early bird 12 Aug 2026",
+      "suggested_members": []
+    },
+    {
+      "name": "ICCPAPM-26 / ICCPST-26 / ICCP (WASET family)",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "fellowship",
+      "status": "published",
+      "description": "Aggregator-style computational-physics conferences (Rome, Antalya, Gyumri, Dublin, Austin)",
+      "location": "WASET family",
+      "url": "https://waset.org/computational-physics-conference-in-december-2026-in-rome",
+      "deadline": null,
+      "deadline_text": "Rolling",
+      "suggested_members": []
+    },
+    {
+      "name": "ICTAMP-26",
+      "category": "GRANTS & FELLOWSHIPS",
+      "kind": "conference",
+      "status": "published",
+      "description": "Int. Conf. on Theoretical & Mathematical Physics (Research Leagues)",
+      "location": "",
+      "url": "https://researchleagues.com/event/index.php?id=101136329",
+      "deadline": "2026-08-24",
+      "deadline_text": "Pre-reg 24 Aug 2026",
+      "suggested_members": []
+    }
+  ]
+}
