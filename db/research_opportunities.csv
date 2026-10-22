@@ -1,0 +1,57 @@
+no,program_name,location,window_deadline,website,duration,stipend,eligibility,notes
+1,CERN Technical Studentship,Switzerland,16 Oct 2026,careers.cern,4–12 months,~3,486 CHF/mo + health insurance + travel + 30 days paid leave,Must have completed 18+ months of studies. No PhD holders.,Verified cross-PDF match: PDF1 "CERN Technical Student (MS/ME) Due 16 Oct"
+2,CERN Short-Term Internship,Switzerland,1 Nov 2026,careers.cern,Technical or administrative diplomas. Minimum age 18.,Verified cross-PDF match: PDF1 "CERN Short-Term Internship Due 1 Nov"
+3,EPFL E3 Program,Switzerland,1 Nov 2026,eee.epfl.ch,Broad Engineering, Science, Tech. CHF 1,800–2,500/mo. Top 10% class rank. Select up to 3 labs.,Verified cross-PDF match: PDF1 "EPFL E3 Program Opens Oct – 1 Nov"
+4,EPFL Life Sciences SRP,Switzerland,15 Nov 2026,epfl.ch,Biology, Biophysics, Bioengineering. CHF 3,600 total for 8 weeks. GPA 3.75/4.0 or top 5%,Verified
+5,EPFL Summer@EPFL,Switzerland,29 Nov 2026,summer.epfl.ch,Computer Science & Communications. CHF 1,800/mo. Dynamic faculty matching.,Verified
+6,EPFL ERIP,Switzerland,30 Nov 2026,epfl.ch,Partner universities only (CMU, Georgia Tech, JHU, McGill, UofT, NTU). Variable stipend.,Verified
+7,Max Planck MaxSIP,Germany,1 Nov 2026,mpi-sws.org,CS, Software Engineering, Data Privacy. Fully funded: stipend + housing + travel. Accepts Bachelor's to PhD.,Verified
+8,DAAD RISE Germany,Germany,30 Nov 2026,rise-germany.de,For US/Canada/UK/Ireland undergrads. Matched with German doctoral students. Monthly stipend + travel + health insurance.,Verified cross-PDF match: PDF1 "DAAD RISE Germany 15 Oct – 30 Nov"
+9,DAAD WISE,Germany,Rolling,daad.de,For Indian nationals. €831/mo. Must independently secure German professor invitation.,Verified
+10,ISTA Scientific Internships,Austria,Year-round,phd.ista.ac.at,2–6 months. Fully funded. Biology, Neuroscience, Mathematics, Physics.,Verified cross-PDF match: PDF1 "ISTA Scientific Internships (Austria) Year-round"
+11,imec Internships,Belgium,Sept 2026,imec-int.com,Nanoelectronics and digital technologies. Leuven.,Verified cross-PDF match: PDF1 "imec Internships (Leuven) Not yet posted (Sept 2026)"
+12,Aalto ASCI Summer,Finland,31 Jan 2027,aalto.fi,12 weeks, June–Aug 2027. Salary 2,000+ EUR/mo + travel bonus. 50+ positions. Projects posted Dec 2026.,Verified cross-PDF match: PDF1 "Aalto ASCI Summer 1–31 Jan 2027"
+13,RWTH Aachen UROP,Germany,Feb 2027,rwth-aachen.de,Mechanical and Electrical Engineering. Deep integration into faculty labs.,Verified cross-PDF match: PDF1 "RWTH Aachen UROP Due Feb"
+14,HZDR Summer Student Program,Germany,24 Jan 2027,hzdr.de,July–Sep 2027. Helmholtz-Zentrum Dresden-Rossendorf. Lectures + research.,Verified
+15,ThinkSwiss Research Scholarship,Switzerland,31 Jan 2027,swissnex.org,For US, Canada, Australia, Singapore, India, select Pacific Islands. CHF 3,600 total (CHF 60/day). Must secure own host professor.,Verified cross-PDF match: PDF1 "THINK SWISS 1 Oct – 1 Nov" (window vs deadline verification)
+16,Amgen Scholars (Europe),UK,1 Feb 2027,amgenscholars.com,Fully funded. European symposium at Cambridge. Check individual host institution deadlines.,Verified
+17,SERP (Leibniz Hannover),Germany,1 Feb 2027,uni-hannover.de,May 13 – July 30, 2027. 12 ECTS credits. €3,150 program fee.,Verified
+18,LISA (Hannover Medical School),Germany,30 Mar 2027,daad.de,Aug–Sep 2027. Immunology research. €300 total cost incl. accommodation. Travel allowance provided.,Verified
+19,MIT MSRP,USA,~20 Jan 2027,oge.mit.edu,10-week program. US Citizens/Permanent Residents only.,Verified cross-PDF match: PDF1 "MIT MSRP Oct – 15 Jan"
+20,Princeton PCCM REU,USA,15 Jan 2027,pccm.princeton.edu,June 1 – July 30, 2027. Materials science research.,Verified
+21,MagLab REU (NSF),USA,8 Jan 2027,nationalmaglab.org,May 24 – July 30, 2027. National High Magnetic Field Laboratory.,Verified
+22,Caltech SURF,USA,1 Mar 2027,sfp.caltech.edu,10-week summer research. Includes stipend and housing.,Verified
+23,Purdue SURF,USA,Intl: 15 Dec 2026; Priority: 15 Jan 2027,engineering.purdue.edu,10-week immersive research. International deadline earlier than domestic.,Verified cross-PDF match: PDF1 "Purdue SURF 1 Dec – 15 Jan"
+24,Amgen Scholars (US),USA,1 Feb 2027,amgenscholars.com,Fully funded summer research in biology/health. Check individual host institution deadlines.,Verified
+25,NSF REU (Various Sites),USA,Jan–Feb 2027 (varies),nsf.gov,100+ REU sites across US universities. Deadlines vary by site.,Verified
+26,BYU REU,USA,6 Feb 2027,reu.byu.edu,May 31 – Aug 6, 2027. Physics, chemistry, engineering.,Verified
+27,Mitacs Globalink,Canada,16 Sep 2026,mitacs.ca,12-week internship (May–Oct 2027). Up to 300 Indian students funded. Open to all disciplines.,Verified
+28,Fields Undergraduate Summer Research Program,Canada,18 Oct 2026,gfs.fields.utoronto.ca,June 1 – July 31, 2027. Mathematical sciences focus at University of Toronto.,Verified
+29,OIST Research Internship,Japan,15 Oct 2026,oist.jp,Spring 2027: Apr 1 – Sep 30, 2027. JPY 2,400/day + free accommodation + travel support. 2–6 months.,Verified
+30,Keio Bio2Q Internship,Japan,1 Dec 2026,bio2q.keio.ac.jp,8–12 weeks (May 10 – Aug 10, 2027). Accommodation + travel covered. Human Biology-Microbiome-Quantum research.,Verified
+31,NAIST NAPI,Japan,16 Oct 2026,napi-naist.github.io,Nara Institute of Science and Technology. Financial support for travel and allowance. Expanding to DLSU (Philippines) for 2027.,Verified
+32,NUS IRIS,Singapore,28 Aug 2026,nus.edu.sg,2–3 months within Jan–May 2027. Fully funded. National University of Singapore.,Verified
+33,KUSRP (Koç University),Türkiye,Opens March 2027,research.ku.edu.tr,Summer research program. Open to international students including high school, undergraduate, and graduate. Free accommodation.,Verified cross-PDF match: PDF1 "KUSRP (Koç, Türkiye) Opens March"
+34,Özyeğin URSI,Turkiye,Feb 2027,ozyegin.edu.tr,Undergraduate Summer Research Program. Application period: Dec–Feb annually. Housing and lunch provided.,Verified cross-PDF match: PDF1 "Özyeğin URSI (Türkiye) Due May (ends Aug)" (seasonal verification)
+35,KFUPM Inbound Summer,Saudi Arabia,Summer 2027,kfupm.edu.sa,Research opportunities for international students. Spring 2027 exchange + 8-week paid Aramco internship.,Verified
+36,KAUST VSRP,Saudi Arabia,Rolling admissions,admissions.kaust.edu.sa,3–6 month visiting student research program in STEM fields.,Verified
+37,KAUST Global Fellowship,Saudi Arabia,Opens 1 Sep 2026,kgfp.kaust.edu.sa,For early-career researchers including final-year PhDs.,Verified
+38,SN Bose / Khorana Programs,India,Late Oct 2026,iuusstf.org,India–US STEM/Biotech exchange. Khorana requires 1+ year remaining, CGPA 8.0+.,Verified
+39,NCRA TIFR VSRP,India,~Mid-Feb 2027,ncra.tifr.res.in,May–July. For students entering final year of Bachelor's/Master's in Physics, Math, Electronics, Engineering.,Verified
+40,IASc-INSA-NASI SRFP,India,30 Nov 2026,ias.ac.in,Science Academies' Summer Research Fellowship. Selection results around March–April 2027.,Verified
+41,IIT Gandhinagar VSREP,India,27 Oct 2026,iitgn.ac.in,Semester-long (Semester II, 2026-27). For final-year students from IITs, IISc, IISERs, NITs.,Verified cross-PDF match: PDF1 "IIT Gandhinagar VSREP" (implied match)
+42,IIT Hyderabad SURE,India,~10 Mar 2027,iith.ac.in,1–2 months, May–July. INR 7,500/mo (1 month), INR 15,000 total (2 months). CGPA 8.0+ for non-IITH.,Verified
+43,IISc UG Research,India,14 Apr 2027,iisc.ac.in,Bachelor of Science (Research) programme. Exam in June 2027.,Verified
+44,Amgen Scholars (Australia),Australia,31 Aug 2026,amgenscholars.com,Hosted by University of Melbourne. Jan 3 – Feb 19, 2027.,Verified
+45,UQ Summer Research,Australia,11 Oct 2026,uq.edu.au,Summer 2027 program at University of Queensland. Various projects across schools.,Verified
+46,QUBIC Summer Internship,Australia,16 Oct 2026,qubic.au,Quantum biotechnology. Jan 13 – Feb 8, 2027. 4 weeks. 10 internships across 4 nodes.,Verified
+47,SAIIA Africa Youth Research Programme,South Africa,30 Sep 2026,saiia.org.za,Training workshop Feb 22–26, 2027, Johannesburg. Fully funded mentorship + research support.,Verified
+48,SANBI Research Internships,South Africa,30 Oct 2026,sanbi.org,15 biological invasions research development internships for 2027. R9,876/mo.,Verified
+49,CNPEM Summer Scholarships,Brazil,8 Sep 2026,cnpem.br,Jan 6 – Feb 26, 2027, Campinas, São Paulo. Travel + accommodation covered. For Latin America & Caribbean students.,Verified
+50,Chevening Scholarship,UK,6 Oct 2026,chevening.org,Full tuition + living stipend + airfare. Master's only. Requires 2+ years work experience.,Verified
+51,Gates Cambridge Scholarship,UK,US: 14 Oct 2026; Intl: 8 Dec 2026 or 6 Jan 2027,gatescambridge.org,Full cost at Cambridge. Master's/PhD. Course-specific deadlines.,Verified
+52,Rhodes Scholarship,UK,Jul–Oct 2026 (varies by country),rhodeshouse.ox.ac.uk,Full cost at Oxford. Master's/DPhil. India deadline: 23 July 2026. Germany: 10 Sep 2026. Southern Africa: 3 Aug 2026.,Verified
+53,Commonwealth Scholarship,UK,Nov 2026 – Feb 2027,cscuk.fcdo.gov.uk,Master's/PhD. For Commonwealth countries.,Verified
+54,Fulbright Program,USA,Sep–Nov 2026 (varies by country),fulbrightprogram.org,Master's/PhD. Country-specific deadlines.,Verified
+55,Erasmus Mundus,Europe,Nov 2026 – Jan 2027,erasmus-plus.ec.europa.eu,EU-funded scholarships for 2-year international master programs.,Verified
+56,Australia Awards,Australia,Feb–Apr 2027 (varies),australiaawards.gov.au,Master's/PhD for developing countries.,Verified
